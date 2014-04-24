@@ -63,9 +63,9 @@ image: post_four.png
 		<div id="disqus_thread"></div>
 		<script type="text/javascript">
 			/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-			var disqus_shortname = 'ericjones'; // required: replace example with your forum shortname
+			var disqus_shortname = 'geoffreybyers'; // required: replace example with your forum shortname
 			var disqus_identifier = '{{ page.url }}';
-			var disqus_url = 'http://erjjones.github.com{{ page.url }}';
+			var disqus_url = 'http://geoffreybyers.github.io{{ page.url }}';
 			
 			/* * * DON'T EDIT BELOW THIS LINE * * */
 			(function() {
