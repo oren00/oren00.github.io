@@ -1,0 +1,392 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"mar",
+				"margin-left"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"padding",
+				"padding-bottom"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"border",
+				"border-top"
+			],
+			[
+				"align",
+				"vertical-align"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"pading",
+				"padding-left"
+			],
+			[
+				"size",
+				"font-size"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"cont",
+				"container-3"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"backgroud",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 7066,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/site.css",
+			"settings":
+			{
+				"buffer_size": 4549,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "Packages/User/firefox.sublime-build",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"br",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/geoffreybyers/Desktop/geoffreybyers/index.html",
+		"/Users/geoffreybyers/Desktop/personal-flat-ui/home.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/empeopled/empeopled great job/04 prototype/protoype 04222014/README.md",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/empeopled/empeopled great job/04 prototype/protoype 04222014/flat-ui-README.md",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/empeopled/empeopled great job/04 prototype/protoype 04142014/signed_in.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/empeopled/empeopled great job/04 prototype/protoype 04142014/species.html",
+		"/Users/geoffreybyers/Desktop/empeopled mock/Flat-UI-master/discussion_lorem.html",
+		"/Users/geoffreybyers/Desktop/empeopled mock/Flat-UI-master/index.html",
+		"/Users/geoffreybyers/Desktop/empeopled mock/Flat-UI-master/components.html",
+		"/Users/geoffreybyers/Desktop/empeopled mock/Flat-UI-master/getting-started.html",
+		"/Users/geoffreybyers/Desktop/empeopled mock/Flat-UI-master/css/empeopled.css",
+		"/Users/geoffreybyers/Desktop/empeopled mock/Flat-UI-master/empeopled.html",
+		"/Users/geoffreybyers/Desktop/empeopled mock/Flat-UI-master/css/offcanvas.css",
+		"/Users/geoffreybyers/Desktop/empeopled mock/bootstrap-3.1.1/docs/examples/offcanvas/index.html",
+		"/Users/geoffreybyers/Desktop/empeopled mock/Flat-UI-master/css/flat-ui.css",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/passport phone/02 mvp sprint/08 website/Flat-UI-master/sendnotifications.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/passport phone/02 mvp sprint/08 website/Flat-UI-master/test3.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/passport phone/02 mvp sprint/08 website/Flat-UI-master/test2.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/passport phone/02 mvp sprint/08 website/Flat-UI-master/test.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/passport phone/02 mvp sprint/08 website/Flat-UI-master/css/passportphone.css",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/passport phone/02 mvp sprint/08 website/Flat-UI-master/sms.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/passport phone/02 mvp sprint/08 website/Flat-UI-master/index.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/passport phone/02 mvp sprint/08 website/Flat-UI-master/index.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/passport phone/02 mvp sprint/08 website/passportphone/test.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/passport phone/02 mvp sprint/08 website/bootstrap-3.1.1/docs/examples/cover/index.html",
+		"/Users/geoffreybyers/Dropbox/public/geoffreywebsite/assets/stylesheet.css",
+		"/Users/geoffreybyers/Google Drive/GreatJob/website/current/assets/aboutstyle.css",
+		"/Users/geoffreybyers/Desktop/old google drive/GreatJob/website/blog/Geoffrey/dont-stop-using-wireframing-tools.md",
+		"/Users/geoffreybyers/Desktop/pen-paper-pixel.md",
+		"/Users/geoffreybyers/Google Drive/GreatJob/website/current/assets/test.css",
+		"/Users/geoffreybyers/Google Drive/GreatJob/website/current/about/index.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/website/current/sharing/dont-stop-using-wireframe-tools/index.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/website/current/sharing/index.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/website/current/assets/hungry.css",
+		"/Users/geoffreybyers/Google Drive/GreatJob/website/current/hungry/index.html",
+		"/Users/geoffreybyers/Desktop/wordoko/kanji3.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/website/redesign/new site/01082014  /greatjobwebsite.sublime-project",
+		"/Users/geoffreybyers/Google Drive/GreatJob/website/redesign/new site/01082014  /assets/stylesheet.css",
+		"/Users/geoffreybyers/Google Drive/GreatJob/website/redesign/new site/01082014  /individualstyle.css",
+		"/Users/geoffreybyers/Google Drive/GreatJob/website/redesign/new site/01082014  /work.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/website/redesign/new site/archive 11272013 /index.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/website/redesign/new site/archive 11272013 /work.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/website/redesign/new site/archive 10212013/experiments.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/LanguagePuzzle/prototype/03 drawing advanced/draw.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/Active/LanguagePuzzle/prototype/04 adding canvas layers/draw.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/LanguagePuzzle/prototype/04 adding canvas layers/draw.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/LanguagePuzzle/prototype/03 drawing advanced/draw.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/LanguagePuzzle/prototype/02 drawing simple/draw.html",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/coinOp/design+build/prototype/prototype11112013/Oren/sms_away_response.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/coinOp/design+build/prototype/prototype11112013/Joel/sms_away_response.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/coinOp/design+build/prototype/prototype11112013/Joel/call_es.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/coinOp/design+build/prototype/prototype11112013/Joel/handle_call_en.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/coinOp/design+build/prototype/prototype11112013/Joel/test.php",
+		"/Users/geoffreybyers/Desktop/sms_away_response.php",
+		"/Users/geoffreybyers/Desktop/handle_call_en.php",
+		"/Users/geoffreybyers/Desktop/call_en.php",
+		"/Users/geoffreybyers/Desktop/call_es.php",
+		"/Users/geoffreybyers/Desktop/test.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/coinOp/design+build/prototype/prototype 10072013/sms2call/makecall_sms.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/coinOp/design+build/prototype/prototype 11042013/sms2call/callback.php",
+		"/Users/geoffreybyers/Desktop/hangup.php",
+		"/Users/geoffreybyers/Desktop/handle-incoming-call.xml",
+		"/Users/geoffreybyers/Desktop/monkey.php",
+		"/Users/geoffreybyers/Desktop/greatjob website/test/assets/stylesheet.css",
+		"/Users/geoffreybyers/Library/Application Support/Sublime Text 2/Packages/User/firefox.sublime-build",
+		"/Users/geoffreybyers/Desktop/greatjob website/test/index.php",
+		"/Users/geoffreybyers/Library/Application Support/Sublime Text 2/Packages/User/Choose Browser.sublime-build",
+		"/Users/geoffreybyers/Desktop/verification/something.js",
+		"/Users/geoffreybyers/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/coinOp/prototype/prototype 10072013/makecall_sms.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/coinOp/prototype/prototype 10072013/callback.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/coinOp/prototype/prototype 10072013/callback.xml",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/coinOp/prototype/prototype 10052013/callback_sms.php",
+		"/Users/geoffreybyers/Google Drive/GreatJob/projects/coinOp/prototype/prototype 10052013/makecall.php",
+		"/Users/geoffreybyers/Desktop/keyword.php",
+		"/Users/geoffreybyers/Desktop/coinop/files/makecall.php",
+		"/Users/geoffreybyers/Desktop/coinop/files/hello.php",
+		"/Users/geoffreybyers/Desktop/coinop/files/index.php",
+		"/Users/geoffreybyers/Desktop/coinop/files/callback.php",
+		"/Users/geoffreybyers/Desktop/coinop/index.php",
+		"/Users/geoffreybyers/Desktop/clicktocall/makecall.jsp",
+		"/Users/geoffreybyers/Desktop/clicktocall/index.jsp",
+		"/Users/geoffreybyers/Desktop/simple-conference/simple.xml",
+		"/Users/geoffreybyers/Desktop/coinop/stylesheet.css"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"empeopled",
+			"signup",
+			".signup",
+			"viewport",
+			"wrd_lkggjf21db",
+			"icon",
+			"35",
+			"watermelon",
+			"message"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 7066,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/site.css",
+					"settings":
+					{
+						"buffer_size": 4549,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4510,
+								4510
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/geoffreybyers/Desktop/coinop/files/index.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
