@@ -1,6 +1,6 @@
 ---
 layout: post
-title: How I built my blog in one day
+title: How I built my blog in one day GB
 category: Coding
 tags: jekyll bootstrap github disqus
 year: 2012
