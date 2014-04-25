@@ -1,5 +1,0 @@
-source: ./blog
-auto: true
-markdown: rdiscount
-pygments: true
-permalink: /blog/:title
