@@ -4,8 +4,8 @@ description:  'My Blog'
 url:          http://andhyde.com
 version:      1.1.1
 author:		  Geoffrey W. Byers
-  name:       ''
-  email:      ''
+name:         Geoffrey W. Byers
+email:        me@geoffreybyers.com
 markdown:     rdiscount
 permalink:    pretty
 pygments:     true
