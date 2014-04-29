@@ -11,7 +11,7 @@ You're going to upset people, but life is too short not to experiment.  Get out 
 ##Why?##
 I became unpleased with my life.  I'm not sure when I realized it, but knew I had to change something drastic.  My persuits in life were no longer inline with my values.  I realized I was trading my time for money in order to buy things which did not add value to my life.  These things began owning me, resulting in me trading more time for more money for more purchases.
 
-I care deeply about the ideas on which I'm focused.  I feel optimal when I have more control over these ideas, and less than optimal when someone is telling me the ideas on which focus ie. corporate managmenet.  I was moving further away from my ideas, and began loosing the desire to chase them.  I decided to make a radical change which would result in me embracing a minimal and nomadic state of being in persuit of the things which fuel me.
+I became obsessed with minimalism.  I care deeply about the ideas on which I'm focused.  I feel optimal when I have more control over these ideas, and less than optimal when someone is telling me the ideas on which focus ie. corporate managmenet.  I was moving further away from my ideas, and began loosing the desire to chase them.  I decided to make a radical change which would result in me embracing a minimal and nomadic state of being in persuit of the things which fuel me.
 
 ##Misaligned Values##
 
