@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Blogging with Jekyll and Hyde
+date: 2014-04-28
+description: A description of how to blog with jekyll.
+keywords: jekyll,hyde,blogging,design,designer,prototyping
 ---
 
 I got tired of wordpress.  The minimalist in me was looking for an alternative to the bloated platform rich with tools and plugins.  I wanted something that worked, was lightweight and simple to use once set up.  I have been experimenting with Great Job's blog for some time.  I wanted to install Ghost, Anchor CMS or Jekyll but was deterred by the setup process.  I experimented with and settled on Dropplets by Circa75 Media.  At the time it was a straightforward install onto our host server.
