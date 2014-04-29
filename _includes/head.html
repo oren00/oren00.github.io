@@ -19,4 +19,35 @@
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
+
+  <!-- SEO -->
+  <meta name="twitter:title" content="{{ page.title }}">
+  <meta property="og:title" content="{{ page.title }}" />
+  <meta property="og:sitename" content="{{ page.title }}" />
+  <meta itemprop="name" content="{{ page.title }}">
+  {% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+  <meta property="og:description" content="{{ page.description }}" />
+  <meta itemprop="description" content="{{ page.description }}">
+  <meta name="description" content="{{ page.description }}" />
+  {% else %}
+  <meta name="twitter:description" content="Blog encompassing thoughts, philosophies, stories and musings of designer Geoffrey Byers.">
+  <meta property="og:description" content="Blog encompassing thoughts, philosophies, stories and musings of designer Geoffrey Byers." />
+  <meta itemprop="description" content="Blog encompassing thoughts, philosophies, stories and musings of designer Geoffrey Byers.">
+  <meta name="description" content="Blog encompassing thoughts, philosophies, stories and musings of designer Geoffrey Byers." />
+  {% endif %}
+  <meta name="twitter:creator" content="@geoffreybyers">
+  <meta name="twitter:domain" content="geoffreybyers.github.io{{ page.url }}">
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="http://geoffreybyers.github.io{{ page.url }}" />
+  <!--<meta property="og:image" content="http://domain.com/opengraph-image.png" />-->
+  <!--<meta name="twitter:image:src" content="http://domain.com/twitter-image.png">-->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="@geoffreybyers">
+  <!--<link rel="author" href="https://plus.google.com/google-plus-profile-id/posts"/>-->
+  {% if page.keywords %}
+  <meta name="keywords" content="{{ page.keywords }}">
+  {% else %}
+  <meta name="keywords" content="default-keywords">
+  {% endif %}
 </head>
