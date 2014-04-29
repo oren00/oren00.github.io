@@ -9,5 +9,5 @@ I've been embracing coding over the last year and decided I wanted to take full 
 
 If you're up for the challenge of coding a bit and rolling something custom for you, give Jekyll a spin.
 
-Thanks to the <a href="https://github.com/jekyll">Jekyll team</a>, and <a href="http://markdotto.com/">Mark Dotto</a> for Hyde.
+Thanks to the <a href="https://github.com/jekyll">Jekyll team</a>, and <a href="http://markdotto.com/">Mark Otto</a> for Hyde.
 
