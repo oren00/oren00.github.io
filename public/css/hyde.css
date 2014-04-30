@@ -272,7 +272,6 @@ a:focus {
     bottom: 0;
     width: 25%;
     margin-bottom: 0;
-    display:none;
   }
   .masthead-inner {
     position: absolute;
@@ -305,9 +304,9 @@ a:focus {
     padding: 60px 0;
   }
   .container {
-    width: 50%; /*orig 55% */
-    margin-left: 25%; /*orig 35% */
-    margin-right: 25%; /* orig 10% */
+    width: 55%; 
+    margin-left: 35%;
+    margin-right: 10%;
   }
 }
 
