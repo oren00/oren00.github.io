@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why I drive vintage diesels
+title: Why I Drive Vintage Diesels
 date: 2014-04-29
 description: My explination into why I drive vintage diesel automobiles.
 keywords: minimalism,simplicity,vintage,diesel,german
