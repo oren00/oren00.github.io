@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Swallowing the Code
-date: 2014-04-28
+title: Swallowing test
+date: 2014-05-01
 description: Starting to code as a designer.
 keywords: prototyping,designing,coding,bootstrap,arduino,beginner
 ---
