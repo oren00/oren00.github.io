@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Comfort Zone
+title: Getting Out of Your Comfort Zone
 date: 2014-04-30
 description: Design happens out of your comfort zone.
 keywords: design,testing
