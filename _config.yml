@@ -9,4 +9,4 @@ email:        me@geoffreybyers.com
 markdown:     rdiscount
 permalink:    pretty
 pygments:     true
-paginate:     5
+paginate:     10
