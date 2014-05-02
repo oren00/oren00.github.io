@@ -6,8 +6,8 @@ description: Cheap traveling tips while living a nomadic lifestyle.
 keywords: travel,nomad,jetsetter,jetset
 ---
 
-tl;dr;
-I travel a lot.  I've learned to travel cheaply by utilizing a few tools and techniques.
+##tl;dr;##
+I travel a lot.  I've learned to travel cheaply by utilizing a few tools and techniques.  In all honestly, just travel on ticket prices as opposed to specifically fixed dates.  It'll save you a ton.  Regardless, use some of the tools on Kayak to try to squeeze some money out of those ticket purchases.
 
 ##Travel based on location, with flexible dates##
 Probably the most important thing I do to lower fares is to embrace the mentality that I want to get somewhere specific, within a date range.  I make things work.  Sure, holiday travel will always have massive peaks.  You can still avoid things like weekend peaks and some holiday peaks too by nimbly traveling around them.  People like me buy the less desirable tickets.  Sometimes this means traveling on holiday days.  It often means traveling during the middle of the day and during the week days.  As I work from wherever I am, this doesn't really matter and I make up for the travel time by working without my computer.
@@ -20,6 +20,9 @@ In short, you create an alert for a searched flight.  You are then emailed as pr
 
 ###Price matrix###
 Searching across multiple days makes sense if you've got very restricted travelability.  As I'm open to all options I use the matrix to see when flights are cheapest if time is a variable.  I use this more than price alert, as it lets me check nearly all potential flights simultaneously.
+
+###Price Trend###
+This is a fascinating and, in my opinion, the most useful feature of Kayak.  You can use their graph of prices of tickets to figure out wether to buy a flight now, or wether to wait it out and see if the price falls.
 
 ##Choose your fare##
 I've used Priceline to get steep discounts up to 40% on flights.  This was true of last minutes flights during peak times too.  The interesting point here is that you bid with the agreement that if you win your credit card is charged.  You can still specify times you're willing to travel so that you're not stuck with red eye flights.  
