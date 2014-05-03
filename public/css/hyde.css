@@ -274,6 +274,11 @@ a:focus {
 }
 
 /* Responsive masthead */
+@media (min-width: 480px) {
+  .masthead-inner {
+    display:none;
+  }
+}
 @media (min-width: 768px) {
   .masthead-inner {
     padding: 40px;
