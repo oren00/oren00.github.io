@@ -274,17 +274,12 @@ a:focus {
 }
 
 /* Responsive masthead */
-@media (max-width: 480px) {
+@media (min-width: 768px) {
   .masthead-inner {
-    display:none;
+    padding: 40px;
   }
 }
-@media (min-width: 481px) and (max-width: 768px){
-  .masthead-inner {
-    display:none;
-  }
-}
-@media (min-width: 769px) {
+@media (min-width: 990px) {
   /* Fix the masthead to the side for impact and awesomeness */
   .masthead {
     position: fixed;
@@ -296,7 +291,7 @@ a:focus {
   }
   .masthead-inner {
     position: absolute;
-    /*bottom: 0;*/
+    bottom: 0;
     right: 0;
     left: 0;
   }
