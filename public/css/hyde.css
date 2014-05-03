@@ -273,12 +273,12 @@ a:focus {
   color: inherit;
 }
 
-/* Responsive masthead */
+/* Responsive masthead
 @media (min-width: 768px) {
   .masthead-inner {
     padding: 40px;
   }
-}
+}*/
 @media (max-width: 990px){
   .colophon{
     display: none;
@@ -298,6 +298,9 @@ a:focus {
     position: absolute;
     right: 0;
     left: 0;
+  }
+      .masthead-inner {
+    padding: 40px;
   }
   .masthead h1 {
     font-size: 64px;
