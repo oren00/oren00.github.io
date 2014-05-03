@@ -278,6 +278,8 @@ a:focus {
   .masthead-inner {
     padding: 40px;
   }
+}
+@media (max-width: 768px){
   .colophon{
     display: none;
   }
