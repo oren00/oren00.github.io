@@ -59,6 +59,7 @@ body {
   line-height: 1.5;
   color: #454441;
   background-color: #fff;
+  font-weight: 300;
 }
 @media (min-width: 990px) {
   body {
