@@ -292,11 +292,11 @@ a:focus {
     margin-bottom: 0;
   }
 }
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   .masthead-inner {
     padding: 40px;
   }
-}
+}*/
 @media (min-width: 990px) {
   /* Fix the masthead to the side for impact and awesomeness */
   .masthead {
