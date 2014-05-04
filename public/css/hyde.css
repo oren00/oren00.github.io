@@ -353,18 +353,13 @@ a:focus {
  */
 
 /* Single post */
-/*.post {
-  margin-bottom: 40px;
-}*/
-@media (min-width: 990px) {
-  /*.post {
-    margin-bottom: 60px;
-  }*/
-  .post {
-    border-top: 1px solid #DEDEDE;
-    padding: 30px 3%;
+
+.post {
+  border-top: 1px solid #DEDEDE;
+  padding-top: 30px;
+  padding-left: 3%;
+  padding-right: 3%;
   }
-}
 
 /* Meta data line below post title */
 .post-date {
