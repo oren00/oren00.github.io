@@ -52,6 +52,22 @@ body {
   margin: 0;
   padding: 0;
 }
+body {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #454441;
+  background-color: #fff;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0 0 10px;
+  font-weight: 300;
+  line-height: 1.25;
+  text-rendering: optimizeLegibility;
+}
+
 @media (max-width: 480px) {
   h1 {
     font-size: 1em;
@@ -101,21 +117,7 @@ body {
   }
 }
 
-body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #454441;
-  background-color: #fff;
-  font-weight: 300;
-}
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 0 0 10px;
-  font-weight: 300;
-  line-height: 1.25;
-  text-rendering: optimizeLegibility;
-}
 /*h1 {
   font-size: 2em;
 }
