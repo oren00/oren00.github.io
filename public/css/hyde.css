@@ -368,6 +368,11 @@ a:focus {
   margin: -10px 0 10px;
   color: #9a9a9a;
 }
+@media (max-width: 990px) {
+  .post-date {
+    font-size: 0.75em;
+  }
+}
 
 /* Related posts */
 .related {
