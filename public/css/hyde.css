@@ -254,15 +254,16 @@ img {
 
 a {
   font-weight: 300;
-  color: #75CD38;
-  text-decoration: none;
+  text-decoration: underline;
 }
 a:hover,
 a:focus {
+  color: #dedede;
   text-decoration: underline;
 }
 .post>h1>a {
   color: #222222;
+  text-decoration: none
 }
 
 /*
