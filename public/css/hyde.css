@@ -434,7 +434,7 @@ a:focus {
 
 .pagination {
   overflow: hidden; /* clearfix */
-  font-weight: bold;
+  font-weight: 400;
   color: #ccc;
   text-align: center;
   border: 1px solid #eee;
