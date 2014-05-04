@@ -264,7 +264,9 @@ a:hover,
 a:focus {
   text-decoration: underline;
 }
-
+.post>h1 {
+  font-color: #222222;
+}
 
 /*
  * Masthead
