@@ -261,7 +261,7 @@ a:hover,
 a:focus {
   text-decoration: underline;
 }
-.post>h1 {
+.post>h1>a {
   color: #222222;
   font-weight: 400;
 }
