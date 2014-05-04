@@ -259,7 +259,7 @@ a {
 }
 a:hover,
 a:focus {
-  color: #eee;
+  color: #000000;
   text-decoration: underline;
 }
 .post>h1>a {
