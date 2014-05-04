@@ -439,6 +439,9 @@ a:focus {
   border-top: 1px solid #eee;
 }
 /* Pagination should float when space is plentiful */
+.pagination {
+  border: 1px solid #eee;
+}
 @media (min-width: 990px) {
   .pagination {
     margin-bottom: 60px;
