@@ -15,12 +15,12 @@ Beans involve two separate stages in my dishes.  The first is repetitive soaking
 I like how pinto, navy and kidney beans work out the best and combinations of these three are awesome together.  I don't measure out spices by volume.  I have a rule of thumb for dumping them in ratios and I usually season by feel and to taste.  Always underseason and continue adding to approach ideal seasoning.
 
 Produce:
--  2 lb dried beans (pinto and red kidney)
--  1/2 an onion
--  3 stalks celery
--  3 cloves garlic
--  1/2 green bell pepper
--  2 jalapeno
+-   2 lb dried beans (pinto and red kidney)
+-   1/2 an onion
+-   3 stalks celery
+-   3 cloves garlic
+-   1/2 green bell pepper
+-   2 jalapeno
 
 Spices:
 -  3 tbsp Slap ya Mama (replaces salt and pepper)
