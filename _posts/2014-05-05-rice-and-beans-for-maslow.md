@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rice and Beans for Maslow.
+title: Rice and Beans for Maslow
 date: 2014-05-05
 description: What you need to achieve is a bowl of beans and rice.  Feed your inner hunger.
 keywords: maslow,need,food,community
@@ -16,7 +16,7 @@ I like how pinto, navy and kidney beans work out the best and combinations of th
 
 Produce:
 
-*   2 lb dried beans (pinto and red kidney)
+-   2 lb dried beans (pinto and red kidney)
 -   1/2 an onion
 -   3 stalks celery
 -   3 cloves garlic
@@ -24,6 +24,7 @@ Produce:
 -   2 jalapeno
 
 Spices:
+
 -  3 tbsp Slap ya Mama (replaces salt and pepper)
 -  3 tbsp cayenne
 -  1 tbsp cumin
