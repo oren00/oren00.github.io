@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Rice and Beans for Maslow.
-date: 2014-05-02
+date: 2014-05-05
 description: What you need to achieve is a bowl of beans and rice.  Feed your inner hunger.
 keywords: maslow,need,food,community
 ---
