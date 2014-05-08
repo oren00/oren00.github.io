@@ -4,9 +4,10 @@
   <link href="http://gmpg.org/xfn/11" rel="profile">
 
   <title>
-    {% if page.title %}{{ page.title }} &middot; {% endif %}
+    {% if page.title %}{{ page.title }} {% endif %}
   </title>
-  <!--{{ site.tagline }}-->
+  <!--{% if page.title %}{{ page.title }} &middot; {% endif %}
+  {{ site.tagline }}-->
   
   <!-- CSS -->
   <link rel="stylesheet" href="/public/css/hyde.css">
