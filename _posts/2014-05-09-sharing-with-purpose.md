@@ -1,5 +1,5 @@
 ---
-layout: draft
+layout: post
 title: Sharing with Purpose
 date: 2014-05-09
 description: Giving purpose to your social media.
