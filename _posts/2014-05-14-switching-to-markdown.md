@@ -10,6 +10,8 @@ keywords: markdown,wordpress,html,blog,blogging
 #Lorem Ipsum#
 Here I write about using markdown and include some code from a template.
 
+[Link to my template md file](http://geoffreybyers.github.io/public/2014-05-14-template.md).
+
 	---
 	layout: post
 	title: Template for markdown
