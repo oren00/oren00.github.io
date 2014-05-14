@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Switching to Markdown
+title: Switching to Markdowns
 date: 2014-05-14
 description: I switched from writing in Wordpress and HTML to markdown.
 keywords: markdown,wordpress,html,blog,blogging
