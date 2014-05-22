@@ -1,169 +1,37 @@
-<!--
-Name:           Personal Site - Home
-Description:    Standing of the shoulders of giants, this site wouldn't be possible without the effots of the the twitter bootstrap, flat ui, and google fonts teams.
-Author:         Geoffrey Warren Byers
--->
+---
+layout: default
+---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Geoffrey Byers</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<div class="posts">
+  {% for post in paginator.posts %}
+  <div class="post">
+    <h1>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h1>
 
-    <!-- Loading Bootstrap -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    <!-- Loading Flat UI -->
-    <link href="css/flat-ui.css" rel="stylesheet">
+    <!--{{ post.content }}-->
+  </div>
+  {% endfor %}
+</div>
 
-    <link rel="shortcut icon" href="images/favicon.ico">
-
-    <!-- Loading Font Awesome -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-
-    <!-- Loading site -->
-    <link href="css/site.css" rel="stylesheet">
-
-    <!-- Loading google fonts -->
-    <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900' rel='stylesheet' type='text/css'>
-
-    <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <!--navigation-->
-    <div class="container">
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <ul class="nav navbar-nav">
-                    <li><a href="http://geoffreybyers.github.io">Home</a></li>
-                    <li><a href="http://geoffreybyers.github.io/blog">Blog</a></li>
-                    <li><a href="http://geoffreybyers.github.io/work">Work</a></li>
-                    <li><a href="http://geoffreybyers.github.io/contact">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-    </div>
-    <!--welcome-->
-    <div id="welcome">
-        <div class="container">
-            <div id="welcome-content">
-                <h1>Howdy!</h1>
-                <h2>My name is Geoffrey Warren Byers.  But you can call me Geoffrey.</h2>
-                <h2>I'm a thinker and a doer.  A designer, builder, hacker, and general wearer of many hats.</h2>
-                <h3>I work on everything awesome.  I've helped launch astronauts into space with <a href="#NASA">NASA</a>, save lives with <a href="#siemens">Siemens</a>, and I'm changing the world by collaborating with other startups at <a href="http://www.greatjob.is" target="_blank">Great Job</a>.  I've also been a featured speaker at multiple events including Siemens UX Day, Startup Leadership Program, and the Innovation Greenhouse on top of being an <a href="http://www.idsa.org/category/tags/idea-2011-finalist-student" target="_blank">IDEA Awards finalist</a>.  Enough about me, how are you?  <a href="http://geoffreybyers.github.io/connect">Connect</a> with me and let's chat.</h3>
-            </div>
-        </div>
-    </div>
-    <!--empeopled-->
-    <div id="NASA">
-        <a name="NASA"></a>
-        <div class="container">
-            <div id="NASA-content">
-                <h2 class="content-h2">Empeopled | Great Job</h2>
-                <img class="main-img" src="images/rocket_icon.png">
-                <div class="col-xs-3 case-study-button">
-                    <a href="#" class="btn btn-case-study btn-lg">View the Case Study</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Siemens PLM NX-->
-    <div id="PLM">
-        <a name="siemens"></a>
-        <div class="container">
-            <div id="PLM-content">
-                <h2 class="content-h2">NX Automation | Siemens</h2>
-                <img class="main-img" src="images/gear_icon.png">
-                <div class="col-xs-3 case-study-button">
-                    <a href="#" class="btn btn-case-study btn-lg">View the Case Study</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Siemens HCX-->
-    <div id="HCX">
-        <div class="container">
-            <div id="HCX-content">
-                <h2 class="content-h2">Healthcare | Siemens</h2>
-                <img class="main-img" src="images/heart_icon.png">
-                <div class="col-xs-3 case-study-button">
-                    <a href="#" class="btn btn-case-study btn-lg">View the Case Study</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Siemens Desigo Project-->
-    <div id="BT">
-        <div class="container">
-            <div id="BT-content">
-                <h2 class="content-h2">Harmonization | Siemens</h2>
-                <img class="main-img" src="images/thermometer_icon.png">
-                <div class="col-xs-3 case-study-button">
-                    <a href="#" class="btn btn-case-study btn-lg">View the Case Study</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Siemens MNS-->
-    <div id="MNSNG">
-        <div class="container">
-            <div id="MNSNG-content">
-                <h2 class="content-h2">Mass Notifications | Siemens</h2>
-                <img class="main-img" src="images/gms_icon.png">
-                <div class="col-xs-3 case-study-button">
-                    <a href="#" class="btn btn-case-study btn-lg">View the Case Study</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--Passport Phone-->
-    <!--<div id="passportphone">
-        <a name="greatjob"></a>
-        <div class="container">
-            <div id="passportphone-content">
-                <h2 class="content-h2">Passport Phone | Great Job</h2>
-                <img class="main-img" src="images/passportphone_icon.png">
-                <div class="col-xs-3 case-study-button">
-                    <a href="#" class="btn btn-case-study btn-lg">View the Case Study</a>
-                </div>
-            </div>
-        </div>
-    </div>-->
-    <!--contact-->
-    <div id="chat">
-        <div class="container">
-            <div id="chat-content">
-                <h1>Want More?</h1>
-                <h2>I'm always working on new projects and sharing new thoughts</h2>
-                <h3>Check out my <a href="http://geoffreybyers.github.io/blog">blog</a> and <a href="http://geoffreybyers.github.io/blog">work</a> sections.</h3>
-            </div>
-        </div>
-    </div>
-    <!--footer-->
-    <div id="footer">
-        <div class="container">
-            <a href="https://www.linkedin.com/in/geoffreybyers" target="_blank"><i class="fa fa-linkedin fa-2x fa-footer"></i></a>
-            <a href="http://www.twitter.com/geoffreybyers" target="_blank"><i class="fa fa-twitter fa-2x fa-footer"></i></a>
-            <a href="https://github.com/geoffreybyers" target="_blank"><i class="fa fa-github fa-2x fa-footer"></i></a>
-            <a href="mailto:me@geoffreybyers.com"><i class="fa fa-envelope fa-2x fa-footer"></i></a>
-        </div>
-    </div>
-    <!-- Load JS here for greater good =============================-->
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-    <script src="js/jquery.ui.touch-punch.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/bootstrap-switch.js"></script>
-    <script src="js/flatui-checkbox.js"></script>
-    <script src="js/flatui-radio.js"></script>
-    <script src="js/jquery.tagsinput.js"></script>
-    <script src="js/jquery.placeholder.js"></script>
-    <script src="js/offcanvas.js"></script>
-  </body>
-</html>
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}" class="older">Older</a>
+  {% else %}
+    <span class="next">Older</span>
+  {% endif %}
+  {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+      <a href="/" class="newer">Newer</a>
+    {% else %}
+      <a href="/page{{paginator.previous_page}}" class="newer">Newer</a>
+    {% endif %}
+  {% else %}
+    <span class="previous">Newer</span>
+  {% endif %}
+</div>
