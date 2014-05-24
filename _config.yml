@@ -1,12 +1,12 @@
-title:        Geoffrey W. Byers
-tagline:      'Geoffrey Byers'
-description:  'Geoffrey Byers'
-url:          http://www.geoffreybyers.github.io
+title:        Hyde
+tagline:      'Hyde, a Jekyll theme'
+description:  'An elegant open source and mobile first theme for <a href="http://jekyllrb.com" target="_blank">Jekyll</a>. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:          http://andhyde.com
 version:      1.1.1
-author:		  Geoffrey W. Byers
-name:         Geoffrey W. Byers
-email:        me@geoffreybyers.com
+author:
+  name:       ''
+  email:      ''
 markdown:     rdiscount
 permalink:    pretty
 pygments:     true
-paginate:     10
+paginate:     5

@@ -4,17 +4,23 @@
   {% include head.html %}
 
   <body>
+
     <header class="masthead">
       <div class="masthead-inner">
+        <h1>{{ site.title }}</h1>
         <p class="lead">{{ site.description }}</p>
+
         <div class="colophon">
           <ul class="colophon-links">
             <li>
-              <a href="http://geoffreybyers.github.io">Blog Home</a>
+              <a href="https://github.com/mdo/hyde/archive/v{{ site.version }}.zip">Download</a>
             </li>
+            <li>
+              <a href="https://github.com/mdo/hyde">GitHub project</a>
+            </li>
+            <li>Currently v{{ site.version }}</li>
           </ul>
-          <!--<p>&copy; 2014. {{ site.author.name }} All rights reserved.</p>-->
-          <a href="http://geoffreybyers.com">geoffreybyers.com</a>
+          <p>&copy; 2014. {{ site.author.name }} All rights reserved.</p>
         </div>
       </div>
     </header>
