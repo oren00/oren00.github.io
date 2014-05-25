@@ -418,6 +418,13 @@ a:focus {
 .related-posts li a:hover small {
   color: inherit;
 }
+
+/* social media */
+.social_section {
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
 /* disqus */
 #disqus_thread {
   padding-left: 3%;
