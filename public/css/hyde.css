@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 @media (min-width: 990px) {
   h1 {
     font-size: 2em; /*40px*/
+    font-weight: 500;
   }
   h2 {
     margin-top: 1em; /*20px*/
