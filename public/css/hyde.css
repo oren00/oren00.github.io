@@ -361,8 +361,8 @@ a:focus {
 }
 @media (min-width: 990px) {
   .container {
-    margin-left: 20%;
-    width: 80%;
+    margin: 0 auto;
+    width: 960px;
   }
 }
 
@@ -376,7 +376,6 @@ a:focus {
 /* Single post */
 
 .post {
-  border-top: 1px solid #eee;
   padding-top: 30px;
   padding-bottom: 30px;
   padding-left: 3%;
