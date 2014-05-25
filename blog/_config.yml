@@ -9,4 +9,5 @@ author:
 markdown:     rdiscount
 permalink:    pretty
 pygments:     true
-paginate:     5
+paginate:     10
+baseurl: /geoffreybyers.github.io/blog
