@@ -6,9 +6,9 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            Poole
-tagline:          The Jekyll Butler
-url:              http://getpoole.com
+title:            @geoffreybyers
+tagline:          blog
+url:              http://geoffreybyers.github.io
 paginate:         1
 baseurl:          /
 author:
