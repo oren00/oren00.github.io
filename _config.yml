@@ -9,12 +9,12 @@ permalink:        pretty
 title:            geoffreybyers
 tagline:          
 url:              http://geoffreybyers.github.io
-paginate:         10
+paginate:         1000
 baseurl:          /
 author:
-  name:           Mark Otto
-  url:            https://twitter.com/mdo
-  email:          markdotto@gmail.com
+  name:           Geoffrey Byers
+  url:            https://twitter.com/geoffreybyers
+  email:          geoffreybyers@gmail.com
 
 # Custom vars
 version:          1.0.0
