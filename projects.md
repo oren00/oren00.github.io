@@ -5,7 +5,7 @@ title: Projects
 
 
 ##Dribb.ly | Great Job##
-[[Dribb.ly](/public/images/dribbly.png "Dribb.ly")](http://dribb.ly/)
+[![Dribb.ly](/public/images/dribbly.png "Dribb.ly")](http://dribb.ly/)
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
