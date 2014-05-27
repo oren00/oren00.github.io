@@ -16,4 +16,4 @@ Furthermore, this site is:
 * Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
 * Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
 
-For questions, comments and discussion feel free to contact me via email at Geoffrey at gmail dot com or on [Twitter](https://twitter.com/geoffreybyers)
+For questions, comments and discussion feel free to contact me on [Twitter](https://twitter.com/geoffreybyers) or via email at Geoffrey at gmail dot com.
