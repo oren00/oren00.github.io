@@ -1,18 +1,38 @@
-**Hyde 1.x has been deprecated for the upcoming Hyde 2.0, [available here](https://github.com/poole/hyde).**
+# Poole
+
+*The Strange Case of Dr. Jeykll and Mr. Hyde* tells the story of a lawyer investigating the connection of two persons, Dr. Henry Jekyll and Mr. Edward Hyde. Chief among the novel's supporting cast is a man by the name of Mr. Poole, Dr. Jekyll's loyal butler.
+
+-----
+
+Poole is the butler for [Jekyll](http://jekyllrb.com), the static site generator. It's designed and developed by [@mdo](https://twitter.com/mdo) to provide a clear and concise foundational setup for any Jekyll site. It does so by furnishing a full vanilla Jekyll install with example templates, pages, posts, and styles.
+
+![Poole](https://f.cloud.github.com/assets/98681/1834359/71ae4048-73db-11e3-9a3c-df38eb170537.png)
+
+See Poole in action with [the demo site](http://demo.getpoole.com).
+
+There are currently two official themes built on Poole:
+
+* [Hyde](http://hyde.getpoole.com)
+* [Lanyon](http://lanyon.getpoole.com)
+
+Individual theme feedback and bug reports should be submitted to the theme's individual repository.
 
 
-## [Hyde](http://andhyde.com)
+## Contents
 
-An elegant open source, mobile first theme for [Jekyll](https://github.com/mojombo/jekyll). It includes lightweight styles and placeholder content to get you up and running with a simple blog in no time.
-
-![Hyde screenshot](https://f.cloud.github.com/assets/98681/1818325/da6489d8-6ff5-11e3-9b4f-c56b92013e9a.png)
+- [Usage](#usage)
+- [Options](#options)
+  - [Rems, `font-size`, and scaling](#rems-font-size-and-scaling)
+- [Development](#development)
+- [Author](#author)
+- [License](#license)
 
 
 ## Usage
 
 ### 1. Install Jekyll
 
-Hyde is built for use with Jekyll, so naturally you'll need to install that. On Macs, it's rather straightforward:
+Poole is built for use with Jekyll, so naturally you'll need to install that. On Macs, it's rather straightforward:
 
 ```bash
 $ gem install jekyll
@@ -24,65 +44,69 @@ You may also need to install Pygments, the Python syntax highlighter for code sn
 
 ### 2a. Quick start
 
-To help anyone with any level of familiarity with Jekyll quickly get started, Hyde includes everything you need for a basic Jekyll site. To that end, just download Hyde and start up Jekyll.
+To help anyone with any level of familiarity with Jekyll quickly get started, Poole includes everything you need for a basic Jekyll site. To that end, just download Poole and start up Jekyll.
 
 ### 2b. Roll your own Jekyll site
 
-Folks wishing to use Jekyll's templates and styles can do so with a little bit of manual labor. Download Hyde and then copy what you need (likely `_layouts/`, `*.html` files, `atom.xml` for RSS, and `public/` for CSS, JS, etc.).
+Folks wishing to use Jekyll's templates and styles can do so with a little bit of manual labor. Download Poole and then copy what you need (likely `_layouts/`, `*.html` files, `atom.xml` for RSS, and `public/` for CSS, JS, etc.).
 
 ### 3. Running locally
 
-To see your Jekyll site with Hyde applied, start a Jekyll server. In Terminal, from `/hyde` (or whatever your Jekyll site's root directory is named):
+To see your Jekyll site with Poole applied, start a Jekyll server. In Terminal, from `/Poole` (or whatever your Jekyll site's root directory is named):
 
 ```bash
 $ jekyll serve
 ```
 
-Open <http://localhost:4000> in your browser, and voilà. You're done.
+Open <http://localhost:4000> in your browser, and voilà.
+
+### 4. Serving it up
+
+If you host your code on GitHub, you can use [GitHub Pages](https://pages.github.com) to host your project. Simply create a `gh-pages` branch in your repository and push it to GitHub. Then head to `http://username.github.io/repo-name`.
+
+No matter your production or hosting setup, be sure to check your `baseurl` setting in the `_config.yml` file. For the above example, you'll want to change it from `/` to `/repo-name`. If you have a `CNAME` or host this at the root level of a domain, like `http://example.com`, there's no need to change anything. Not setting this correctly will mean broken styles on your site.
 
 
 ## Options
 
-Hyde includes a few options, typically applied via classes on the `<body>` element.
+Poole includes some customizable options, typically applied via classes on the `<body>` element.
 
-### Themes
 
-As of v1.1, Hyde ships with optional themes based on the [base16 color scheme](https://github.com/chriskempson/base16). In Hyde, a theme simply changes the sidebar's background color and the color of links within blog posts. Here's the red theme in action:
+### Rems, `font-size`, and scaling
 
-![Hyde in red](https://f.cloud.github.com/assets/98681/1818326/da64f56c-6ff5-11e3-9643-7d0c18157dec.png)
+Poole is built almost entirely with `rem`s (instead of pixels). `rem`s are like `em`s, but instead of building on the immediate parent's `font-size`, they build on the root element, `<html>`.
 
-There are eight themes available at this time.
+By default, we use the following:
 
-![Hyde theme classes](https://f.cloud.github.com/assets/98681/1817044/e5b0ec06-6f68-11e3-83d7-acd1942797a1.png)
+```css
+html {
+  font-size: 16px;
+  line-height: 1.5;
+}
+@media (min-width: 38em) {
+  html {
+    font-size: 20px;
+  }
+}
 
-To use a theme, add any one of the available theme classes to the `<body>` element like so:
-
-```html
-<body class="theme-base-08">
-  ...
-</body>
 ```
 
-To create your own theme, look to the Themes section of [Hyde's CSS](https://github.com/mdo/hyde/blob/master/public/css/hyde.css). Copy any existing theme (they're only a few lines of CSS), rename it, and change the provided colors.
+To easily scale your site's typography and components, simply customize the base `font-size`s here.
 
-### Reverse layout
 
-![Hyde with reverse layout](https://f.cloud.github.com/assets/98681/1818324/da6473f8-6ff5-11e3-9315-692e639fb5c7.png)
+## Development
 
-Hyde's page orientation can be reversed with a single class.
+Poole has two branches, but only one is used for active development.
 
-```html
-<body class="layout-reverse">
-  ...
-</body>
-```
+- `master` for development.  **All pull requests should be to submitted against `master`.**
+- `gh-pages` for our hosted site, which includes our analytics tracking code. **Please avoid using this branch.**
 
 
 ## Author
 
 **Mark Otto**
-<https://github.com/mdo>
-<https://twitter.com/mdo>
+- <https://github.com/mdo>
+- <https://twitter.com/mdo>
 
 
 ## License

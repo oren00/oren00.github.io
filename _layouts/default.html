@@ -4,23 +4,22 @@
   {% include head.html %}
 
   <body>
-    <!--<header class="masthead">
-      <div class="masthead-inner">
-        <p class="lead">{{ site.description }}</p>
-        <div class="colophon">
-          <ul class="colophon-links">
-            <li>
-              <a href="http://geoffreybyers.github.io">Blog Home</a>
-            </li>
-          </ul>
-          <p>&copy; 2014. {{ site.author.name }} All rights reserved.</p>
-          <a href="http://geoffreybyers.com">geoffreybyers.com</a>
-        </div>
-      </div>
-    </header>-->
 
-    <div class="content container">
+    <div class="container content">
+      <div class="masthead">
+        <h3 class="masthead-title">
+          <a href="{{ site.baseurl }}" title="Home">{{ site.title }}</a>
+          <small>{{ site.tagline }}</small>
+        </h3>
+      </div>
+
       {{ content }}
+
+      <div class="footer">
+        <p>
+          &copy; {{ site.time | date: '%Y' }}. All rights reserved.
+        </p>
+      </div>
     </div>
 
   </body>
