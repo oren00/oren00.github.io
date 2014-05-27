@@ -9,7 +9,7 @@ permalink:        pretty
 title:            geoffreybyers
 tagline:          blog
 url:              http://geoffreybyers.github.io
-paginate:         1
+paginate:         10
 baseurl:          /
 author:
   name:           Mark Otto
