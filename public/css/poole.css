@@ -24,8 +24,6 @@
  * Masthead
  * Posts and pages
  * Pagination
- * Reverse layout
- * Themes
  */
 
 
@@ -306,11 +304,13 @@ tbody tr:nth-child(odd) th {
   padding-top:    1rem;
   padding-bottom: 1rem;
   margin-bottom: 3rem;
+  text-align: right;
 }
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
+  float: left;
 }
 .masthead-title a {
   color: #505050;
@@ -321,6 +321,10 @@ tbody tr:nth-child(odd) th {
   color: #c0c0c0;
   letter-spacing: 0;
 }
+.nav {
+    list-style: none outside none;
+    margin-bottom: 0;
+    padding-left: 0;
 
 
 /*
