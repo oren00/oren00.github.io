@@ -328,6 +328,10 @@ tbody tr:nth-child(odd) th {
 }
 .nav li {
     display: inline-block;
+
+}
+.nav li + li {
+    margin-left: 0.5rem;
 }
 
 /*
