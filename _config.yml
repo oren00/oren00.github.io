@@ -6,7 +6,7 @@ pygments:         true
 permalink:        pretty
 
 # Setup
-title:            @geoffreybyers
+title:            geoffreybyers
 tagline:          blog
 url:              http://geoffreybyers.github.io
 paginate:         1
