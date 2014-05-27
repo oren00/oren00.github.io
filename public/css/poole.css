@@ -325,7 +325,10 @@ tbody tr:nth-child(odd) th {
     list-style: none outside none;
     margin-bottom: 0;
     padding-left: 0;
-
+}
+.nav li {
+    display: inline-block;
+}
 
 /*
  * Posts and pages
