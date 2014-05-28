@@ -469,7 +469,7 @@ a.pagination-item:hover {
  * 
  */
 
-@media (min-width: 30em) {
+@media (max-width: 30em) {
   .masthead-title {
     float: none;
   }
