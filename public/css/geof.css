@@ -469,9 +469,11 @@ a.pagination-item:hover {
  * 
  */
 
-.masthead-title {
-  float: none;
-}
-.masthead {
-  text-align: left;
+@media (min-width: 30em) {
+  .masthead-title {
+    float: none;
+  }
+  .masthead {
+    text-align: left;
+  }
 }
