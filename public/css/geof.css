@@ -363,7 +363,7 @@ tbody tr:nth-child(odd) th {
 .post-title,
 .post-title a {
   color: #303030;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-family: "PT Sans",Helvetica,Arial,sans-serif;
 }
 .page-title,
 .post-title {
