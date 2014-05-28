@@ -251,6 +251,7 @@ tbody tr:nth-child(odd) th {
 /* Footer */
 .footer {
   text-align: center;
+  margin-bottom: 2em;
 }
 .fa-footer {
   color: #222222;
