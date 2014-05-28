@@ -317,11 +317,11 @@ tbody tr:nth-child(odd) th {
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
-  color: #505050;
+  color: #222222;
   float: left;
 }
 .masthead-title a {
-  color: #505050;
+  color: #222222;
 }
 .masthead-title small {
   font-size: 75%;
@@ -336,6 +336,7 @@ tbody tr:nth-child(odd) th {
 }
 .nav li {
     display: inline-block;
+    color: #222222;
 
 }
 .nav li + li {
