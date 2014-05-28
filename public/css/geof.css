@@ -336,11 +336,12 @@ tbody tr:nth-child(odd) th {
 }
 .nav li {
     display: inline-block;
-    color: #222222;
-
 }
 .nav li + li {
     margin-left: 0.5rem;
+}
+.nav li a {
+  color: #222222;
 }
 
 /*
