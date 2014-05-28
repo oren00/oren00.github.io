@@ -451,6 +451,8 @@ tbody tr:nth-child(odd) th {
 /* Only provide a hover state for linked pagination items */
 a.pagination-item:hover {
   background-color: #E1E1E1;
+  color: #222222;
+  text-decoration: none;
 }
 
 @media (min-width: 30em) {
