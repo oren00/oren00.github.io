@@ -1,0 +1,9 @@
+---
+layout: post
+title: Template for markdown
+date: 2014-05-14
+description: This is a super simple template for markdown which I use with Jekyll.
+keywords: template,diy,how-to
+---
+
+[![Markdown Template](/public/images/blog/2014-05-14-template-form-markdown.jpg)](http://geoffreybyers.github.io/markdown-template)
