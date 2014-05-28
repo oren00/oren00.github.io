@@ -9,7 +9,7 @@ permalink:        pretty
 title:            geoffreybyers
 tagline:          
 url:              http://geoffreybyers.github.io
-paginate:         1000
+paginate:         1
 baseurl:          /
 author:
   name:           Geoffrey Byers
