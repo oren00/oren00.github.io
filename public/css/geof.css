@@ -321,6 +321,8 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 0;
   color: #222222;
   float: left;
+  font-family: "PT Sans",Helvetica,Arial,sans-serif;
+  font-weight: 700;
 }
 .masthead-title a {
   color: #222222;
@@ -338,6 +340,8 @@ tbody tr:nth-child(odd) th {
 }
 .nav li {
     display: inline-block;
+    font-family: "PT Sans",Helvetica,Arial,sans-serif;
+    font-weight: 400;
 }
 .nav li + li {
     margin-left: 0.5rem;
@@ -364,6 +368,7 @@ tbody tr:nth-child(odd) th {
 .post-title a {
   color: #303030;
   font-family: "PT Sans",Helvetica,Arial,sans-serif;
+  font-weight: 700;
 }
 .page-title,
 .post-title {
@@ -416,6 +421,7 @@ tbody tr:nth-child(odd) th {
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   color: #ccc;
   text-align: center;
 }
