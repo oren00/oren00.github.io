@@ -6,7 +6,7 @@ title: Projects
 
 ##Dribb.ly | Great Job##
 [![Dribb.ly](/public/images/dribbly.png "Dribb.ly")](http://dribb.ly/)
-Minimal discussion platform, piggybacking on twitter for commenting.
+Holding conversations on twitter can get noisy.  Dribbly provides a minimal discussion platform, piggybacking on twitter for commenting.  It launched May, 2014.
 
 <br>
 ***
@@ -14,7 +14,7 @@ Minimal discussion platform, piggybacking on twitter for commenting.
 
 ##NX | Siemens##
 [![Siemens Automation](/public/images/automation.jpg "Siemens Automation")](http://http://www.plm.automation.siemens.com/en_us/products/nx/)
-Siemes Automation product to design, plan, and engineer maufacturing plants.
+Siemes Automation product used to design, plan, and engineer maufacturing plants.
 
 <br>
 ***
@@ -22,7 +22,7 @@ Siemes Automation product to design, plan, and engineer maufacturing plants.
 
 ##AXIOM Sensis XP | Siemens##
 [![Healthcare](/public/images/healthcare.jpg "Healthcare")](http://www.healthcare.siemens.com/angio/workplaces/sensis/)
-Siemens Healthcare product to document and inventory cath lab procedures.
+Siemens Healthcare product used to document and track inventory in cath lab procedures.
 
 <br>
 ***
@@ -46,4 +46,4 @@ Siemens Building Technology product for mass notification in emergency situation
 
 ##Space Shuttle | NASA##
 [![NASA](/public/images/space-shuttle.jpg "NASA")](http://www.nasa.gov/topics/shuttle_station/features/et138_rollout.html/)
-NASA external fuel tank production.
+NASA external fuel tank production.  The big orange thing.
