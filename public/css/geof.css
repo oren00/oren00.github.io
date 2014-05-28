@@ -249,11 +249,8 @@ tbody tr:nth-child(odd) th {
 }
 
 /* Footer */
-.foter {
-  text-align: center;
-}
-
 .footer > a {
+    text-align: center;
     color: #222222;
 }
 
