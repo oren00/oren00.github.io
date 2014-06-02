@@ -18,6 +18,7 @@ Furthermore, this site is:
 
 ##Contact me##
 For questions, comments and discussion feel free to contact me on:
+
 * [Twitter](https://twitter.com/geoffreybyers)
 * [Linkedin](http://www.linkedin.com/in/geoffreybyers/)
 * Jabber - geoffreybyers@swissjabber.ch
