@@ -45,5 +45,5 @@ Siemens Building Technology product for mass notification in emergency situation
 <br>
 
 ##Space Shuttle | NASA##
-[![NASA](/public/images/space-shuttle.jpg "NASA")](http://www.nasa.gov/topics/shuttle_station/features/et138_rollout.html/)
+[![NASA](/public/images/space-shuttle.jpg "NASA")](http://www.geoffreybyers.com/projects/nasa)
 NASA external fuel tank production.  The big orange thing.
