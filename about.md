@@ -3,23 +3,22 @@ layout: page
 title: About
 ---
 
-I'm a thinker and a doer.  A designer, builder, maker, hacker and general wearer of many hats.  I work on everything awesome.  I've help launch astronauts into space with [NASA](http://geoffreybyers.github.io/projects), save lives with [Siemens](http://geoffreybyers.github.io/projects), and I'm stirring things up by collaborating with other startups at [Great Job](http://geoffreybyers.github.io/projects).  
+If you've stumbled here looking for pretty pictures and bullshit wireframes of what I've made in the past, find another designer.  There are a ton on [here](http://www.dribbble.com), [here](http://www.behance.com), and [here](http://www.cargocollective.com).  I don't want to work with you.  
 
-I've also been a featured speaker at multiple events including Siemens UX Day, Startup Leadership Program, and the Innovation Greenhouse on top of being an [IDEA Awards finalist](http://www.idsa.org/category/tags/idea-2011-finalist-student).
+The past doesn't define me.  The future does.  While I've worked on a slew of really cool [projects](http://geoffreybyers.com/projects), my best work is yet to come.  
 
-##About the site##
-I'm a believer in perpetuating discussions surrounding ideas as opposed to sharing aesthetically pleasing photos of wireframes.  This page in it's single column blog style is a manifestation of something I care deeply about.  If you want to know more, I'm happy to chat about any of my projects.
-
-Furthermore, this site is:
-
-* Built on [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-
-##Contact me##
-For questions, comments and discussion feel free to contact me on:
+Please direct all criticisms, rants, and concerns here:
 
 * [Twitter](https://twitter.com/geoffreybyers)
 * [Linkedin](http://www.linkedin.com/in/geoffreybyers/)
 * Jabber - geoffreybyers@swissjabber.ch
-* Email - geoffreybyers@gmail.com
+* Email - geoffrey@geoffreybyers.com
+
+##About the site##
+
+Somebody said designers shouldn't code.  Fuck that guy.  This site is:
+
+* Built on [Jekyll](http://jekyllrb.com)
+* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
+* Coded with [Sublime Text](http://sublimetext.com)
+
