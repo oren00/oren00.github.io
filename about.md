@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Colophon
 ---
 
 If you've stumbled here looking for pretty pictures and wireframes of what I've made in the past, find another designer.  I don't want to work with you.  They tend to congregate [here](http://www.dribbble.com), [here](http://www.behance.com), and [here](http://www.cargocollective.com). 
@@ -11,8 +11,8 @@ I'm a pretty easy guy to find and I'm a blast to speak with.  I'll probably tell
 
 * [Twitter](https://twitter.com/geoffreybyers)
 * [Linkedin](http://www.linkedin.com/in/geoffreybyers/)
-* Jabber - geoffreybyers@swissjabber.ch
 * Email - geoffrey@geoffreybyers.com
+* Jabber - geoffreybyers@swissjabber.ch
 
 Somebody said designers shouldn't code.  Fuck that guy.  This site is:
 
