@@ -21,5 +21,6 @@ Somebody said designers shouldn't code.  Fuck that guy.  This site is:
 * Coded with [Sublime Text](http://sublimetext.com)
 
 Cheers,
+
 Geoffrey
 
