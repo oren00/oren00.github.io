@@ -11,7 +11,7 @@ I'm a pretty easy guy to find and I'm a blast to speak with.  I'll probably tell
 
 * [Twitter](https://twitter.com/geoffreybyers)
 * [Linkedin](http://www.linkedin.com/in/geoffreybyers/)
-* Email - geoffrey@geoffreybyers.com [my pgp public key](http://keys.gnupg.net/pks/lookup?op=get&search=0x87E1435E83142866)
+* Email - geoffrey@geoffreybyers.com ([my pgp public key](http://keys.gnupg.net/pks/lookup?op=get&search=0x87E1435E83142866))
 * Jabber - geoffreybyers@swissjabber.ch
 
 Somebody said designers shouldn't code.  Fuck that guy.  This site is:
