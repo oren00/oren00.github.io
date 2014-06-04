@@ -14,7 +14,7 @@ baseurl:          /
 author:
   name:           Geoffrey Byers
   url:            https://twitter.com/geoffreybyers
-  email:          geoffreybyers@gmail.com
+  email:          geoffrey@geoffreybyers.com
 
 # Custom vars
 version:          1.0.0
