@@ -3,6 +3,7 @@ layout: post
 title: Blogging with Jekyll and Hyde
 date: 2014-04-28
 description: A description of how to blog with jekyll.
+excerpt: I got tired of wordpress.
 keywords: jekyll,hyde,blogging,design,designer,prototyping
 ---
 

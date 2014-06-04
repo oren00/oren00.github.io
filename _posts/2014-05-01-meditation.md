@@ -3,6 +3,7 @@ layout: post
 title: Hacking Stress via Meditation
 date: 2014-05-01
 description: How I started meditating and took control of my life.
+excerpt: Meditation might help you increase focus, work output, optimism while decreasing stress and bullshit.
 keywords: focus,meditation,design
 ---
 ##tl;dr;##

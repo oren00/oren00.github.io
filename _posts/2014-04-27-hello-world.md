@@ -2,7 +2,8 @@
 layout: post
 title: Hello World
 date: 2014-04-27
-description: Hello world.
+description: Hello world
+excerpt: Time to fucking get it.
 keywords: hello
 ---
 

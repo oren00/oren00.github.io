@@ -3,10 +3,11 @@ layout: post
 title: Rice and Beans for Maslow
 date: 2014-05-05
 description: What you need to achieve is a bowl of beans and rice.  Feed your inner hunger.
+excerpt: Raised in New Orleans, I grew up in a worldclass culture.  Between music and food, I spent most of my former years developing a complex palete around a culture spicy in a multitude of ways.  I also picked up exploring, resulting in my value of roadmaps over directions.
 keywords: maslow,need,food,community
 ---
 
-Raised in New Orleans, I was raised in a worldclass culture.  Between music and food, I spent most of my former years developing a complex palete around a warm culture.  I also picked up exploring, resulting in my value of roadmaps over directions.  Processes over recipes.  This follows my obsession with a system level framework which I've been developing and revealing.  This allows for freedom for experimentation within a guided approach.  Some, but not all of the variables are locked down as constants.
+Raised in New Orleans, I grew up in a worldclass culture.  Between music and food, I spent most of my former years developing a complex palete around a culture spicy in a multitude of ways.  I also picked up exploring, resulting in my value of roadmaps over directions.  Processes over recipes.  This follows my obsession with a system level framework which I've been developing and revealing.  This allows for freedom for experimentation within a guided approach.  Some, but not all of the variables are locked down as constants.
 
 While chasing self actualization it is quite easy to let things like food go to the wayside.  Maslow places physiological needs as the base for everything else.  While I cannot help everyone around me with the actualization portion, I feed them.  They don't know the basis behind for this, yet.  All they know is when I am in Dallas at Fort Work, beans start cooking sometime early in the morning in a slow cooker in ready for the 12pm rush.  The smell engulfs the entire floor of the building.
 

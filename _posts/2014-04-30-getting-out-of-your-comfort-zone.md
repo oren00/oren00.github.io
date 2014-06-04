@@ -3,6 +3,7 @@ layout: post
 title: Getting Out of Your Comfort Zone
 date: 2014-04-30
 description: Design happens out of your comfort zone.
+excerpt: I grew custom to designing behind a desk.  In design school, my professors encouraged us to hold studio time.  They also encouraged user involvement and testing.  At my internship and later full time job, part of my responsibilities incuded usability testing.  This was scheduled and sporadic.  The rest of the time I was either in my cubicle or at a clients site designing heads down.  It was not until I started Great Job that I took the full plunge into incorporating codesigning with my partner Jordan, clients, and users.
 keywords: design,testing
 ---
 

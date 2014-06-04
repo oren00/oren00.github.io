@@ -3,6 +3,7 @@ layout: post
 title: Why I Drive Vintage Diesels
 date: 2014-04-29
 description: My explination into why I drive vintage diesel automobiles.
+excerpt: I own two vintage german diesel cars.  They're quirky, unique and pleasurable drivers.
 keywords: minimalism,simplicity,vintage,diesel,german
 ---
 ##tl;dr;##

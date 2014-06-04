@@ -3,6 +3,7 @@ layout: post
 title: Switching to Markdowns
 date: 2014-05-14
 description: I switched from writing in Wordpress and HTML to markdown.
+excerpt: Here I write about using markdown and include some code from a template.
 keywords: markdown,wordpress,html,blog,blogging
 ---
 

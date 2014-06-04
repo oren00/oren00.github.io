@@ -3,6 +3,7 @@ layout: post
 title: Swallowing the Code
 date: 2014-04-28
 description: Starting to code as a designer.
+excerpt: As a designer I had shyed away from coding until recently.  I could easily stick to user research and validation, sketching, lo and hifi mockups, and some clunky prototypes.  No matter the scope or depth of the project, the concepts always lacked the interactivity I intended.
 keywords: prototyping,designing,coding,bootstrap,arduino,beginner
 ---
 
