@@ -264,15 +264,14 @@ tbody tr:nth-child(odd) th {
 .fa-linkedin-hover:hover, .fa-linkedin-hover:focus {
   color: #0083A8;
 }
+.fa-twitter-hover:hover, .fa-twitter-hover:focus {
+  color: #46C0FB;
 }
-.fa-twitter-hover {
-
+.fa-github-hover:hover, .fa-github-hover:focus {
+  color: #171515;
 }
-.fa-github-hover {
-
-}
-.fa-envelope-hover {
-
+.fa-envelope-hover:hover, .fa-envelope-hover:focus {
+  color: #DB4038;
 }
 
 /*
