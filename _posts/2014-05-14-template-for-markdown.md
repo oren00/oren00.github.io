@@ -3,7 +3,7 @@ layout: post
 title: Template for markdown
 date: 2014-05-14
 description: This is a super simple template for markdown which I use with Jekyll.
-excerpt: [![Markdown Template](/public/images/blog/2014-05-14-template-form-markdown.png)](http://geoffreybyers.github.io/markdown-template/)
+excerpt: ![Markdown Template](/public/images/blog/2014-05-14-template-form-markdown.png)
 keywords: template,diy,how-to
 ---
 
