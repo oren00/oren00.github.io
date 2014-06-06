@@ -261,6 +261,19 @@ tbody tr:nth-child(odd) th {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+.fa-linkedin-hover:hover, .fa-linkedin-hover:focus {
+  color: #0083A8;
+}
+}
+.fa-twitter-hover {
+
+}
+.fa-github-hover {
+
+}
+.fa-envelope-hover {
+
+}
 
 /*
  * Custom type
