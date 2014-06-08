@@ -1,3 +1,8 @@
+---
+layout: page
+title: PGP
+---
+
     -----BEGIN PGP PUBLIC KEY BLOCK-----
     Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
     Comment: GPGTools - https://gpgtools.org
