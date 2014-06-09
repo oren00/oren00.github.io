@@ -9,15 +9,15 @@ The future defines me, not the past.  While I've worked on a slew of really cool
 
 I'm a pretty easy guy to find and I'm a blast to speak with.  I'll probably tell you what you don't want to hear, but rather what you need to hear.
 
-
 * geoffrey AT geoffreybyers DOT com [pgp](http://www.geoffreybyers.com/pgp)
-
 
 Somebody said designers shouldn't code.  Fuck that guy.  This site is:
 
 * Built on [Jekyll](http://jekyllrb.com)
 * Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
 * Coded with [Sublime Text](http://sublimetext.com)
+
+bitcoin: 17h36dXeNKMoXg7LV534nq7D2eWgJZ3XLf
 
 Cheers,
 
