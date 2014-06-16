@@ -11,11 +11,9 @@ keywords: security,privacy,cryptocat,encryption
 ![cryptocat](/public/images/blog/2014-06-16-cryptocat_1.png "cryptocat")
 
 ##Encrypting your instant messages
-[Cryptocat](https://crypto.cat/) is a way to securely chat.
+Having a safe channel for communications is imperative in today's digital world.  It does not matter if you have something secret to share, the right to privacy is one of the core principles of the US and the internet.  [Cryptocat](https://crypto.cat/) is a way to securely chat.
 
-Having a safe channel for communications is imperative in today's digital world.  It does not matter if you have something secret to share, the right to privacy is one of the core principles of the US and the internet.
-
-Why cryptocat?  Figuring out how to set up and correctly encrypt messages can be a headache for casual users.  Cryptocat is a strong candidate mainly because the time to get going is minimal and the learning curve for use is very low.
+Figuring out how to set up and correctly encrypt messages can be a headache for casual users.  Cryptocat is a strong candidate mainly because the time to get going is minimal and the learning curve for use is very low.
 
 What cryptocat does:
 
