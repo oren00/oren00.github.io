@@ -6,6 +6,7 @@ description: Get started using Cryptocat.
 excerpt: ![cryptocat](/public/images/blog/2014-06-16-cryptocat_1.png "cryptocat")
 keywords: security,privacy,cryptocat,encryption
 ---
+
 ![cryptocat](/public/images/blog/2014-06-16-cryptocat_1.png "cryptocat")
 
 ##Encrypting your instant messages
