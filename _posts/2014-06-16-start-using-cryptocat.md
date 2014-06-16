@@ -3,7 +3,7 @@ layout: post
 title: Start Using Cryptocat
 date: 2014-06-16
 description: Get started using Cryptocat.
-excerpt: ![cryptocat](/public/images/blog/2014-06-16-cryptocat_1.png "cryptocat")
+excerpt: <img src="/public/images/blog/2014-06-16-cryptocat_1.png">
 keywords: security,privacy,cryptocat,encryption
 ---
 
