@@ -20,9 +20,9 @@ Why cryptocat?  Figuring out how to set up and correctly encrypt messages can be
 How it works
 
 What it doesn't do:
-* It is not anonymous.  You can choose your name, however your connection is not protected.
-* It does not protect against keyloggers.  Cryptocat will not protect you against attacks on your machine.
-* It does not protect you from untrustworthy people.
+*	It is not anonymous.  You can choose your name, however your connection is not protected.
+*	It does not protect against keyloggers.  Cryptocat will not protect you against attacks on your machine.
+*	It does not protect you from untrustworthy people.
 
 ##Install
 ![cryptocat](/public/images/blog/2014-06-16-cryptocat_2.png "cryptocat")
