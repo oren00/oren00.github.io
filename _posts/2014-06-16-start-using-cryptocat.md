@@ -17,11 +17,15 @@ Having a safe channel for communications is imperative in today's digital world.
 
 Why cryptocat?  Figuring out how to set up and correctly encrypt messages can be a headache for casual users.  Cryptocat is a strong candidate mainly because the time to get going is minimal and the learning curve for use is very low.
 
-How it works
+What cryptocat does:
 
-What it doesn't do:
+*	All parties join cryptocat, entering a conversation together
+*	Messages between you and users are encrypted, meaning only the receiving parties can view them.
+*	No logs of messages are kept once memebers leave the conversation.
 
-*	It is not anonymous.  You can choose your name, however your connection is not protected.
+What cryptocat doesn't do:
+
+*	It is not anonymous.  You can choose your name, however your connection is not hidden.
 *	It does not protect against keyloggers.  Cryptocat will not protect you against attacks on your machine.
 *	It does not protect you from untrustworthy people.
 
