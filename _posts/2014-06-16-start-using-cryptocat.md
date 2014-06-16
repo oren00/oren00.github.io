@@ -41,4 +41,5 @@ Tell your friends or whomever you want to converse with the name of the room.
 
 ##Use
 ![cryptocat](/public/images/blog/2014-06-16-cryptocat_4.png "cryptocat")
-Start Chatting
+
+All of the members in the conversation appear to the left, while the conversation updates on the right.  Chat away!
