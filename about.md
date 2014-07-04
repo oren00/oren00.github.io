@@ -10,8 +10,7 @@ The future defines me, not the past.  While I've worked on a slew of really cool
 I'm a pretty easy guy to find and I'm a blast to speak with.  I'll probably tell you what you don't want to hear, but rather what you need to hear.
 
 * Email: geoffrey AT geoffreybyers.com [pgp](http://www.geoffreybyers.com/pgp)
-* IM: geoffreybyers AT swissjabber.ch 
-* IM Fingerprint: 0F0BFFF4 6FA3E1B9 DF951229 E7D40A89 99F20896
+* Jabber: geoffreybyers AT swissjabber.ch [Fingerprint](http://www.geoffreybyers.com/jabber)
 
 
 Somebody said designers shouldn't code.  Fuck that guy.  This site is:
