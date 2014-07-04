@@ -10,7 +10,8 @@ The future defines me, not the past.  While I've worked on a slew of really cool
 I'm a pretty easy guy to find and I'm a blast to speak with.  I'll probably tell you what you don't want to hear, but rather what you need to hear.
 
 * Email: geoffrey AT geoffreybyers.com [pgp](http://www.geoffreybyers.com/pgp)
-* IM: geoffreybyers AT swissjabber.ch Fingerprint: 0F0BFFF4 6FA3E1B9 DF951229 E7D40A89 99F20896
+* IM: geoffreybyers AT swissjabber.ch 
+* IM Fingerprint: 0F0BFFF4 6FA3E1B9 DF951229 E7D40A89 99F20896
 
 
 Somebody said designers shouldn't code.  Fuck that guy.  This site is:
@@ -18,8 +19,6 @@ Somebody said designers shouldn't code.  Fuck that guy.  This site is:
 * Built on [Jekyll](http://jekyllrb.com)
 * Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
 * Coded with [Sublime Text](http://sublimetext.com)
-
-bitcoin: 17h36dXeNKMoXg7LV534nq7D2eWgJZ3XLf
 
 Cheers,
 
