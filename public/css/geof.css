@@ -105,6 +105,7 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
   font-weight: 300;
+  line-height: 1.75em;
 }
 
 strong {
@@ -396,8 +397,8 @@ tbody tr:nth-child(odd) th {
 .post-title,
 .post-title a {
   color: #303030;
-  font-family: "PT Sans",Helvetica,Arial,sans-serif;
-  font-weight: 700;
+  font-family: "Merriweather",Georgia,"Times New Roman",serif;
+  font-weight: 500;
 }
 .page-title,
 .post-title {
