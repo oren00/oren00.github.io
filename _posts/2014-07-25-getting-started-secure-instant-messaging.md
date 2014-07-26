@@ -19,7 +19,7 @@ Adium is one of the best instant messaging applications for OSX which supports e
 ##Registering a Username##
 ![jitsi](/public/images/blog/2014-07-25-jitsi_01.png "Jitsi")
 
-You'll need to register a XMPP(jabber) user name.  I prefer to have my name hosted with a company outside the US which will provide protection.  Switzerland based [SwissJabber](http://www.swissjabber.ch) has you covered.  With Jitsi open, go to Jitsi > Preferences > Accounts > Add or alternatively go to File > Add New Account.  Select XMPP and select Create New XMPP Account.  Fill the fields changing the server to 'swissjabber.ch' and click add.
+You'll need to register a XMPP (jabber) user name.  I prefer to have my name hosted with a company outside the US which will provide protection.  Switzerland based [SwissJabber](http://www.swissjabber.ch) has you covered.  With Jitsi open, go to Jitsi > Preferences > Accounts > Add or alternatively go to File > Add New Account.  Select XMPP and select Create New XMPP Account.  Fill in the fields changing the server field to 'swissjabber.ch' and click the add button.
 
 ##A Note on Privacy and Common Sense##
 I allow anyone to contact me.  That doesn't mean I talk to anyone, It just means anyone who needs to can find me.  I also share my fingerprint with everyone and you should too.  I also verify with whom I am talking.  I recommend verifying the fingerprint of new contacts with that person.  I also don't try to hide who I am, just keep private what it is I am doing.
