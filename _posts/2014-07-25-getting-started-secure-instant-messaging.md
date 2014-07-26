@@ -19,6 +19,7 @@ Adium is one of the best instant messaging applications for OSX which supports e
 
 ##Registering a Username
 ![jitsi](/public/images/blog/2014-07-25-jitsi_1.png "Jitsi")
+
 You'll need to register a XMPP(jabber) user name.  I prefer to have my name hosted with a company outside the US which will provide protection.  Switzerland based [SwissJabber](http://www.swissjabber.ch) has you covered.  With Jitsi open, go to Jitsi > Preferences > Accounts > Add or alternatively go to File > Add New Account.  Select XMPP and select Create New XMPP Account.  Fill the fields changing the server to 'swissjabber.ch' and click add.
 
 ##A Note on Privacy and Common Sense
@@ -26,12 +27,16 @@ I allow anyone to contact me.  That doesn't mean I talk to anyone, It just means
 
 ##Messaging a Contact
 ![jitsi](/public/images/blog/2014-07-25-jitsi_2.png "Jitsi")
+
 Go to File > Add Contact to add a contact.  Double clicking a contact opens a window allowing you to chat.  When you start a chat, clicking the lock icon in the top right encrypts the chat.  OTR is the magic sauce.  It stands for Off The Record and is a cryptographic protocol for instant messaging.  By default it keeps logs of conversations.  I would recommend changing this (the hourglass icon) and turning off history for all chats and contacts.  
+
 ![jitsi](/public/images/blog/2014-07-25-jitsi_3.png "Jitsi")
+
 To require encryption all the time, go to Preferences > Security and check all three options at the bottom.  Nothing is worse then talking and realizing encryption is off.
 
 ##Voice, Video and Screen Sharing
 ![jitsi](/public/images/blog/2014-07-25-jitsi_4.png "Jitsi")
+
 Jitsi is pretty awesome because it provides [encryption](https://jitsi.org/Documentation/ZrtpFAQ#faqFeat) for voice and video sharing.  I don't use these nearly as much but they are nice to haves.  What it doesn't do is protect metadata, so the contents of the conversation are private but not informaton regarding with whom you are speaking.  Clicking a contact's name once brings up the items for messaging, voice, video and screen sharing.  Alternatively you can access all of these from within a message.
 
 ##Mobile App
