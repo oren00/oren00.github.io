@@ -7,6 +7,7 @@ excerpt: If you want to have private conversations, you are accountable for maki
 keywords: security,privacy,message,messaging,TOR,OTR,encryption
 ---
 
+
 ##TL;DR
 Start using encrypted messaging to keep your communications private.  Use Jitsi on OSX and ChatSecure on iOS an Android.
 
