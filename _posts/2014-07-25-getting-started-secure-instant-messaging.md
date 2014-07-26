@@ -38,5 +38,5 @@ To require encryption all the time, go to Preferences > Security and check all t
 
 Jitsi is pretty awesome because it provides [encryption](https://jitsi.org/Documentation/ZrtpFAQ#faqFeat) for voice and video sharing.  I don't use these nearly as much but they are nice to haves.  What it doesn't do is protect metadata, so the contents of the conversation are private but not informaton regarding with whom you are speaking.  Clicking a contact's name once brings up the items for messaging, voice, video and screen sharing.  Alternatively you can access all of these from within a message.
 
-##Mobile App##
+##Mobile Use##
 For mobile messaging [ChatSecure](https://chatsecure.org) for iOS and Android allows OTR encryption over XMPP.  This means you can chat with people, while being protected on your mobile device.  Download ChatSecure and input your account details from the steps above.  This will generate a different fingerprint, however it will let you chat with people on the go.  This will work nicely with other people on ChatSecure, as well as users using Pidgin and Adium.
