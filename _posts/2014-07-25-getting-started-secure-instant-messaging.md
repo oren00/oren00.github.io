@@ -40,3 +40,4 @@ Jitsi is pretty awesome because it provides [encryption](https://jitsi.org/Docum
 
 ##Mobile App##
 For mobile messaging [ChatSecure](https://chatsecure.org) for iOS and Android allows OTR encryption over XMPP.  This means you can chat with people, while being protected on your mobile device.  Download ChatSecure and input your account details from the steps above.  This will generate a different fingerprint, however it will let you chat with people on the go.  This will work nicely with other people on ChatSecure, as well as users using Pidgin and Adium.
+
