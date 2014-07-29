@@ -9,7 +9,7 @@ The future defines me, not the past.  While I've worked on a plethora of really 
 
 I'm a pretty easy guy to find and I'm a blast to speak with.  I'll probably tell you what you don't want to hear, but rather what you need to hear.
 
-* Email: geoffrey AT geoffreybyers.com [pgp](http://www.geoffreybyers.com/pgp)
+* Email: geoffrey AT geoffreybyers.com
 * Jabber/Jitsi: geoffreybyers AT swissjabber.ch [Fingerprint](http://www.geoffreybyers.com/jabber)
 
 
