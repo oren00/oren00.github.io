@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Getting Started with Secure Instant Messaging for OSX and Mobile
+title: Getting Started with Secure Instant Messaging
 date: 2014-07-25
 description: You should start using secure messaging now.  Here's how.
 excerpt: If you want to have private conversations, you are accountable for making sure those conversations are secure.
