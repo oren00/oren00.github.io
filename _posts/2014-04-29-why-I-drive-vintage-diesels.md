@@ -6,7 +6,7 @@ description: My explanation into why I drive vintage diesel automobiles.
 excerpt: I own two vintage German diesel cars.  They're quirky, unique and pleasurable drivers.
 keywords: minimalism,simplicity,vintage,diesel,german
 ---
-##tl;dr;##
+##tl;dr##
 I own two vintage German diesel cars.  They're quirky, unique and pleasurable drivers.
 
 ##Obsession##

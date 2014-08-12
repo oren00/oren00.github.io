@@ -7,7 +7,7 @@ excerpt: I travel a lot.  Between Chicago, San Francisco, New Orleans, Dallas an
 keywords: travel,nomad,jetsetter,jetset
 ---
 
-##tl;dr;##
+##tl;dr##
 I travel a lot.  Between Chicago, San Francisco, New Orleans, Dallas and Denver to name a few places I frequent.  I've learned to travel cheaply by utilizing a few tools and techniques.  In all honestly, just travel on ticket prices as opposed to specifically fixed dates.  It'll save you a ton.  Regardless, use some of the tools on Kayak to try to squeeze some money out of those ticket purchases.
 
 ##My cheapest ticket##
