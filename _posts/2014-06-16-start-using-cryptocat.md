@@ -19,7 +19,7 @@ What cryptocat does:
 
 *	All parties join cryptocat, entering a conversation together
 *	Messages between you and users are encrypted, meaning only the receiving parties can view them.
-*	No logs of messages are kept once memebers leave the conversation.
+*	No logs of messages are kept once members leave the conversation.
 
 What cryptocat doesn't do:
 
