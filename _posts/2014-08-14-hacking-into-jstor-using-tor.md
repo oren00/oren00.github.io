@@ -3,7 +3,7 @@ layout: post
 title: Hacking into JSTOR using TOR
 date: 2014-08-14
 description: Exploiting JSTOR is as easy as using TOR.
-excerpt: <img src="/public/images/blog/2014-08-14-jsTOR_1.png">
+excerpt: <img src="/public/images/blog/2014-08-14-jsTOR_title.png">
 keywords: JSTOR,open source,free,hacking
 ---
 
