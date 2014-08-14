@@ -262,6 +262,7 @@ tbody tr:nth-child(odd) th {
 
 .footnotes > p {
   font-size: 16 px;
+  margin-bottom: 0;
 }
 
 /* Footer */
