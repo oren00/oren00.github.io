@@ -255,6 +255,14 @@ tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
   background-color: #f9f9f9;
 }
+/* Footnotes */
+.footnotes > ul,ol,dl {
+  font-size: 16px;
+}
+
+.footnotes > p {
+  font-size: 16 px;
+}
 
 /* Footer */
 .footer {
@@ -291,6 +299,7 @@ tbody tr:nth-child(odd) th {
   font-size: 1.25rem;
   font-weight: 300;
 }
+
 
 
 /*
