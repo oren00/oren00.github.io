@@ -45,6 +45,7 @@ Start TOR, visit JSTOR, and log in using your previously created credentials.  E
 * Using or even searching for TOR and/or Tails will place you on a watch list, and you will be labeled an extremist.[^13]
 
 ##Citations
+
 [^1]: http://about.jstor.org/individuals
 [^2]: http://anterotesis.com/wordpress/2011/07/economics-of-jstor/
 [^3]: http://about.jstor.org/jstor-help-support/admin-support#396009 
