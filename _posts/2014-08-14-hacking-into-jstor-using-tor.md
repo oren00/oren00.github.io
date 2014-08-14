@@ -23,8 +23,7 @@ Now that TOR is installed, go ahead and launch TOR.  Once it opens and you get t
 
 ##Picking an exit node
 ![TOR IMAGE](/public/images/blog/2014-08-14-jsTOR_4.png "jsTOR")
-We need to edit a specific configuration file in order to tell TOR to connect through a university exit node.  
-All exit nodes are viewable via Tor Network Status.[^8]  Search the page for '.edu' and numerous university exit nodes should pop up.
+We need to edit a specific configuration file in order to tell TOR to connect through a university exit node.  All exit nodes are viewable via Tor Network Status.[^8]  Search the page for '.edu' and numerous university exit nodes should pop up.
 ![TOR IMAGE](/public/images/blog/2014-08-14-jsTOR_5.png "jsTOR")
 Open the torrc file with a text editor like TextEdit and add the lines, changing 'UniversityExitNode' to any of the other university exit nodes you found:
 		StrictExitNodes 1
@@ -33,7 +32,7 @@ Open the torrc file with a text editor like TextEdit and add the lines, changing
 * On OSX - Applications > TorBrowser > Data > Tor > torrc
 
 ##Ignition
-Start TOR, visit JSTOR, and log in using your previously created credentials.  Enjoy gratis access
+Start TOR, visit JSTOR, and log in using your previously created credentials.  Enjoy gratis access.
 
 ##Notes
 * This method works for JSTOR and Artstor.
