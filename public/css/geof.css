@@ -260,7 +260,7 @@ tbody tr:nth-child(odd) th {
   font-size: 16px;
 }
 
-.footnotes > p {
+.footnotes > ol > li > p {
   font-size: 16 px;
   margin-bottom: 0;
 }
