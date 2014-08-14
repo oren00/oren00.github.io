@@ -24,8 +24,10 @@ Now that TOR is installed, go ahead and launch TOR.  Once it opens and you get t
 ##Picking an exit node
 ![TOR IMAGE](/public/images/blog/2014-08-14-jsTOR_4.png "jsTOR")
 We need to edit a specific configuration file in order to tell TOR to connect through a university exit node.  All exit nodes are viewable via Tor Network Status.[^8]  Search the page for '.edu' and numerous university exit nodes should pop up.  Open the torrc file with a text editor like TextEdit and add the lines, changing 'servername' to any of the other university exit nodes you found:
+
 		StrictExitNodes 1
 		ExitNodes servername
+		
 * On GNU/Linux - Tor folder > Data > Tor > torrc
 * On OSX - Applications > TorBrowser > Data > Tor > torrc
 
