@@ -40,11 +40,11 @@ Start TOR, visit JSTOR, and log in using your previously created credentials.  E
 
 ##Notes
 * This method works for JSTOR and Artstor.
-* Illegally accessing JSTOR violates their TOS and Computer Fraud and Abuse Act.  Legal action has been perused in certain cases. [^9]
+* Abusing JSTOR violates their TOS and Computer Fraud and Abuse Act.  Legal action has been perused in certain cases. [^9]
 * Be aware of where you are when you do this (people at the IP address may be liable)
 * Running a TOR exit node is legal.[^10]
 * Using TOR does not guarantee safety, security, or privacy.[^11]
-* Using Tails on a dedicated machine is better.[^12]
+* Using Tails on a dedicated machine is better than TOR on your day to day OS.[^12]
 * Using or even searching for TOR and/or Tails will place you on a watch list, and you will be labeled an extremist.[^13]
 
 ##Citations
