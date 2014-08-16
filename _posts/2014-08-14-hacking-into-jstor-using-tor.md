@@ -28,12 +28,12 @@ We need to edit a specific configuration file in order to tell TOR to connect th
 * On GNU/Linux - Tor folder > Data > Tor > torrc
 * On OSX - Applications > TorBrowser > Data > Tor > torrc
 
-Open the torrc file with a text editor like TextEdit and add the lines:
+Open the torrc file with a text editor like TextEdit and add the lines to the bottom of the file:
 
-		StrictExitNodes 1
-		ExitNodes servername
+		StrictNodes 1
+		ExitNodes routername
 
-Change 'servername' to any of the other university exit nodes you found and save the file.
+Change 'routername' to any of the other university exit nodes router names you found and save the file.
 
 ##Ignition
 Start TOR, visit JSTOR, and log in using your previously created credentials.  Enjoy gratis access.
