@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Github Pages, iwantmyname, and Fastmail
+author: Geoffrey Byers
 date: 2014-06-04
 description: Hosting my site on github pages and my email through fastmail via iwantmyname.com
 excerpt: When I first launched my website around 2008, I registered my and hosted my domain with Godaddy.  Things weren't easy, and the experience left a lot to be desired (on top of the CEO killing an elephant).

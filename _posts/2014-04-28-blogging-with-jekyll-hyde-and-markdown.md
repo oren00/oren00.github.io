@@ -1,10 +1,15 @@
 ---
 layout: post
-title: Blogging with Jekyll and Hyde
+title: Blogging with Jekyll and Hyd
+author: Geoffrey Byerse
 date: 2014-04-28
+quote: 
+image: /media/blogging-with-jekyll-hyde-and-markdown/cover.jpg
 description: A description of how to blog with jekyll.
 excerpt: I got tired of wordpress.
 keywords: jekyll,hyde,blogging,design,designer,prototyping
+video: false
+comments: true
 ---
 
 I got tired of Wordpress.  While beginning to really embracy minimalism I began looking for an alternative to the bloated platform rich with tools and plugins.  I wanted something that worked, was lightweight and simple to use once set up.  I wanted to install Ghost, Anchor CMS or Jekyll but was deterred by the setup process.  I experimented with and settled on Dropplets by Circa75 Media elsewhere.  At the time it was a straightforward install.

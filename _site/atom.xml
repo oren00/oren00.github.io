@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+ <title>Geoffrey Byers</title>
+ <link href="http://www.geoffreybyers.com/atom.xml" rel="self"/>
+ <link href="http://www.geoffreybyers.com/"/>
+ <updated>2014-10-19T23:30:13-05:00</updated>
+ <id>http://www.geoffreybyers.com</id>
+ <author>
+   <name>Geoffrey Byers</name>
+   <email></email>
+ </author>
+
+ 
+ <entry>
+   <title>Hacking into JSTOR using TOR</title>
+   <link href="http://www.geoffreybyers.com/blog/hacking-into-jstor-using-tor"/>
+   <updated>2014-08-14T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/hacking-into-jstor-using-tor</id>
+   <content type="html">&lt;h2&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;JSTOR is a digital library of academic journals, books, and primary sources.  They provide access those privy to elite access to universities as well as a free account which provides limited access.&lt;a href=&quot;http://about.jstor.org/individuals&quot;&gt;^1&lt;/a&gt;  This information is guarded and extremely price prohibitive, sometimes costing an inflated price of up to hundreds of dollars per article.&lt;a href=&quot;http://anterotesis.com/wordpress/2011/07/economics-of-jstor/&quot;&gt;^2&lt;/a&gt;  JSTOR provides access based on the IP address of the computer accessing the website.  If that computer is on a college campus, any login will provide access to JSTOR with full university priority.&lt;a href=&quot;http://about.jstor.org/jstor-help-support/admin-support#396009&quot;&gt;^3&lt;/a&gt;  TOR, an anonymity network, obfuscates a user&amp;#39;s identity by connecting a user through multiple users and finally an exit node.&lt;a href=&quot;https://www.torproject.org/about/overview&quot;&gt;^4&lt;/a&gt;  TOR exit nodes are operated in many countries, including the US, as well as universities.  Connecting to a TOR exit node in one of these university allows for JSTOR access.&lt;/p&gt;
+
+&lt;h2&gt;Downloading and Installing TOR&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/hacking-into-jstor-using-tor/jsTOR_2.png&quot; alt=&quot;TOR 1&quot; title=&quot;jsTOR&quot;&gt;
+Download and Install TOR.&lt;a href=&quot;https://torproject.org&quot;&gt;^5&lt;/a&gt;  Restarting your computer is a good idea at this point. &lt;/p&gt;
+
+&lt;h2&gt;Generating a JSTOR account&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/hacking-into-jstor-using-tor/jsTOR_3.png&quot; alt=&quot;TOR 2&quot; title=&quot;jsTOR&quot;&gt;
+Now that TOR is installed, go ahead and launch TOR.  Once it opens and you get the initial splash page, visit Guerrilla Mail&lt;a href=&quot;https://www.guerrillamail.com/&quot;&gt;^6&lt;/a&gt; to generate a temporary, untraceable email address.  Copy this email address to your clipboard, leave this tab open and open a new tab.  In this new tab visit JSTOR&amp;#39;s registration page&lt;a href=&quot;https://www.jstor.org/action/registration?&quot;&gt;^7&lt;/a&gt; and sign up using the email from Guerrilla Mail.  JSTOR should send you a link to this email address.  Confirm your sign up via email and then close TOR.&lt;/p&gt;
+
+&lt;h2&gt;Picking an exit node&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/hacking-into-jstor-using-tor/jsTOR_4.png&quot; alt=&quot;TOR IMAGE&quot; title=&quot;jsTOR&quot;&gt;
+We need to edit a specific configuration file in order to tell TOR to connect through a university exit node.  All exit nodes are viewable via Tor Network Status.&lt;a href=&quot;http://torstatus.blutmagie.de/&quot;&gt;^8&lt;/a&gt;  Search the page for &amp;#39;.edu&amp;#39; and numerous university exit nodes should pop up.  We need to then navigate to the torrc file in order to edit it.  &lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;On GNU/Linux - Tor folder &amp;gt; Data &amp;gt; Tor &amp;gt; torrc&lt;/li&gt;
+&lt;li&gt;On OSX - Applications &amp;gt; TorBrowser &amp;gt; Data &amp;gt; Tor &amp;gt; torrc&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Open the torrc file with a text editor like TextEdit and add the lines to the bottom of the file:&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;    StrictNodes 1
+    ExitNodes routername
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;Change &amp;#39;routername&amp;#39; to any of the other university exit nodes router names you found and save the file.&lt;/p&gt;
+
+&lt;h2&gt;Ignition&lt;/h2&gt;
+
+&lt;p&gt;Start TOR, visit JSTOR, and log in using your previously created credentials.  Enjoy gratis access.&lt;/p&gt;
+
+&lt;h2&gt;Notes&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;This method works for JSTOR and Artstor.&lt;/li&gt;
+&lt;li&gt;Abusing JSTOR violates their TOS and Computer Fraud and Abuse Act.  Legal action has been perused in certain cases. &lt;a href=&quot;http://en.wikipedia.org/wiki/United_States_v._Aaron_Swartz&quot;&gt;^9&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Be aware of where you are when you do this (people at the IP address may be liable)&lt;/li&gt;
+&lt;li&gt;Running a TOR exit node is legal.&lt;a href=&quot;http://tor-exit.eecs.umich.edu/&quot;&gt;^10&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Using TOR does not guarantee safety, security, or privacy.&lt;a href=&quot;https://www.torproject.org/about/overview.html.en&quot;&gt;^11&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Using Tails on a dedicated machine is better than TOR on your day to day OS.&lt;a href=&quot;http://www.wired.com/2014/04/tails/&quot;&gt;^12&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Using or even searching for TOR and/or Tails will place you on a watch list, and you will be labeled an extremist.&lt;a href=&quot;http://arstechnica.com/security/2014/07/the-nsa-thinks-linux-journal-is-an-extremist-forum/&quot;&gt;^13&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Citations&lt;/h2&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Getting Started with Secure Instant Messaging</title>
+   <link href="http://www.geoffreybyers.com/blog/getting-started-secure-instant-messaging"/>
+   <updated>2014-07-25T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/getting-started-secure-instant-messaging</id>
+   <content type="html">&lt;h2&gt;tl;dr&lt;/h2&gt;
+
+&lt;p&gt;Start using encrypted messaging to keep your communications private.  Use Jitsi on OSX and ChatSecure on iOS an Android.&lt;/p&gt;
+
+&lt;h2&gt;Protect Your Privacy&lt;/h2&gt;
+
+&lt;p&gt;A &lt;a href=&quot;http://www.theguardian.com/commentisfree/series/glenn-greenwald-security-liberty&quot;&gt;plethora&lt;/a&gt; of &lt;a href=&quot;http://www.salon.com/writer/glenn_greenwald/&quot;&gt;journal&lt;/a&gt; articles expose the war against security, privacy and anonymity on the internet.  If you want to have private conversations, you are accountable for making sure those conversations are secure.&lt;/p&gt;
+
+&lt;h2&gt;Downloading Jitsi for OSX&lt;/h2&gt;
+
+&lt;p&gt;Adium is one of the best instant messaging applications for OSX which supports encryption.  Head over to Jitsi&amp;#39;s &lt;a href=&quot;https://jitsi.org/Main/Download&quot;&gt;website&lt;/a&gt; and download the latest version.&lt;/p&gt;
+
+&lt;h2&gt;Registering a Username&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/getting-started-secure-instant-messaging/jitsi_01.png&quot; alt=&quot;jitsi&quot; title=&quot;Jitsi&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;You&amp;#39;ll need to register a XMPP (jabber) user name.  I prefer to have my name hosted with a company outside the US which will provide protection.  Switzerland based &lt;a href=&quot;http://www.swissjabber.ch&quot;&gt;SwissJabber&lt;/a&gt; has you covered.  With Jitsi open, go to Jitsi &amp;gt; Preferences &amp;gt; Accounts &amp;gt; Add or alternatively go to File &amp;gt; Add New Account.  Select XMPP and select Create New XMPP Account.  Fill in the fields changing the server field to &amp;#39;swissjabber.ch&amp;#39; and click the add button.&lt;/p&gt;
+
+&lt;h2&gt;A Note on Privacy and Common Sense&lt;/h2&gt;
+
+&lt;p&gt;I allow anyone to contact me.  That doesn&amp;#39;t mean I talk to anyone, It just means anyone who needs to can find me.  I also share my fingerprint with everyone and you should too.  I also verify with whom I am talking.  I recommend verifying the fingerprint of new contacts with that person.  I also don&amp;#39;t try to hide who I am, just keep private what it is I am doing.&lt;/p&gt;
+
+&lt;h2&gt;Messaging a Contact&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/getting-started-secure-instant-messaging/jitsi_02.png&quot; alt=&quot;jitsi&quot; title=&quot;Jitsi&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Go to File &amp;gt; Add Contact to add a contact.  Double clicking a contact opens a window allowing you to chat.  When you start a chat, clicking the lock icon in the top right encrypts the chat.  OTR is the magic sauce.  It stands for Off The Record and is a cryptographic protocol for instant messaging.  By default it keeps logs of conversations.  I would recommend changing this (the hourglass icon) and turning off history for all chats and contacts.  &lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/getting-started-secure-instant-messaging/jitsi_03.png&quot; alt=&quot;jitsi&quot; title=&quot;Jitsi&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;To require encryption all the time, go to Preferences &amp;gt; Security and check all three options at the bottom.  Nothing is worse then talking and realizing encryption is off.&lt;/p&gt;
+
+&lt;h2&gt;Voice, Video and Screen Sharing&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/getting-started-secure-instant-messaging/jitsi_04.png&quot; alt=&quot;jitsi&quot; title=&quot;Jitsi&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Jitsi is pretty awesome because it provides &lt;a href=&quot;https://jitsi.org/Documentation/ZrtpFAQ#faqFeat&quot;&gt;encryption&lt;/a&gt; for voice and video sharing.  I don&amp;#39;t use these nearly as much but they are nice to haves.  What it doesn&amp;#39;t do is protect metadata, so the contents of the conversation are private but not informaton regarding with whom you are speaking.  Clicking a contact&amp;#39;s name once brings up the items for messaging, voice, video and screen sharing.  Alternatively you can access all of these from within a message.&lt;/p&gt;
+
+&lt;h2&gt;Mobile Use&lt;/h2&gt;
+
+&lt;p&gt;For mobile messaging &lt;a href=&quot;https://chatsecure.org&quot;&gt;ChatSecure&lt;/a&gt; for iOS and Android allows OTR encryption over XMPP.  This means you can chat with people, while being protected on your mobile device.  Download ChatSecure and input your account details from the steps above.  This will generate a different fingerprint, however it will let you chat with people on the go.  This will work nicely with other people on ChatSecure, as well as users using Pidgin and Adium.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Start Using Cryptocat</title>
+   <link href="http://www.geoffreybyers.com/blog/start-using-cryptocat"/>
+   <updated>2014-06-16T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/start-using-cryptocat</id>
+   <content type="html">&lt;h2&gt;Encrypting your instant messages&lt;/h2&gt;
+
+&lt;p&gt;Having a safe channel for communications is imperative in today&amp;#39;s digital world.  It does not matter if you have something secret to share, the right to privacy is one of the core principles of the internet.  &lt;a href=&quot;https://crypto.cat/&quot;&gt;Cryptocat&lt;/a&gt; is a way to securely chat.&lt;/p&gt;
+
+&lt;p&gt;Figuring out how to set up and correctly encrypt messages can be a headache for casual users.  Cryptocat is a strong candidate mainly because the time to get going is minimal and the learning curve for use is very low.&lt;/p&gt;
+
+&lt;p&gt;What cryptocat does:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  All parties join cryptocat, entering a conversation together&lt;/li&gt;
+&lt;li&gt;  Messages between you and users are encrypted, meaning only the receiving parties can view them.&lt;/li&gt;
+&lt;li&gt;  No logs of messages are kept once members leave the conversation.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;What cryptocat doesn&amp;#39;t do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  It is not anonymous.  You can choose your name, however your connection is not hidden.&lt;/li&gt;
+&lt;li&gt;  It does not protect against keyloggers.  Cryptocat will not protect you against attacks on your machine.&lt;/li&gt;
+&lt;li&gt;  It does not protect you from untrustworthy people.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2&gt;Install&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/start-using-cryptocat/cryptocat_2.png&quot; alt=&quot;cryptocat&quot; title=&quot;cryptocat&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;Options include web based plugins for all major browsers as well as an ios app.  To install the browser plugin choose your browser version.  This will download the extension.  Find the downloaded file and run it, this will install the cryptocat plugin into your web browser.  For iOS, simply download the app from the appstore.&lt;/p&gt;
+
+&lt;h2&gt;Configure&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/start-using-cryptocat/cryptocat_3.png&quot; alt=&quot;cryptocat&quot; title=&quot;cryptocat&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;To run from your web browser, click the extension icon which will open a new tab for Cryptocat.
+Choose a unique conversation name, a username and click connect and wait for the room to start.
+Tell your friends or whomever you want to converse with the name of the room.&lt;/p&gt;
+
+&lt;h2&gt;Use&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/media/start-using-cryptocat/cryptocat_4.png&quot; alt=&quot;cryptocat&quot; title=&quot;cryptocat&quot;&gt;&lt;/p&gt;
+
+&lt;p&gt;All of the members in the conversation appear to the left, while the conversation updates on the right.  Chat away!&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Github Pages, iwantmyname, and Fastmail</title>
+   <link href="http://www.geoffreybyers.com/blog/github-iwantmyname-and-fastmail"/>
+   <updated>2014-06-04T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/github-iwantmyname-and-fastmail</id>
+   <content type="html">&lt;p&gt;When I first launched my website around 2008, I registered my and hosted my domain with Godaddy.  Things weren&amp;#39;t easy, and the experience left a lot to be desired (on top of the CEO killing an elephant). Earlier this year we started using &lt;a href=&quot;http://www.iwantmyname.com&quot;&gt;iwantmyname&lt;/a&gt; for Great Job and I was blow away at how straightforward and easy they made everything.  I started using them for my personal site earlier this month.  &lt;/p&gt;
+
+&lt;p&gt;When I realized I wanted to move away from a wordpress site and databases, I knew I could also ditch traditional hosting.  This is not true in many cases, however I sought out a simple lightweight solution.  I recently made the switch to Github, utilizing pages for hosting.  Hosting on github was a fun learning process without too steep of a curve.  It did utilize a domain ending in .github.io, which while fine for projects was not suitable for my site.  I&amp;#39;m proud to use github, but I&amp;#39;m more proud of my own brand.&lt;/p&gt;
+
+&lt;p&gt;iwantmydomain uses apps which make connecting things easier.  Connecting my domain to github was as simple as a few clicks and uploading a file to my github.  I couldn&amp;#39;t be happier with the solution, however this left my email unhosted.  For a number of reasons I&amp;#39;m moving away from gmail and needed a cheap and painless solution.  While poking around on iwantmyname&amp;#39;s apps section, I found they allowed for quickly connecting to a few providers.  Initially I wanted to use Rackspace, as I&amp;#39;m familiar with the company.  They wanted a minimum of $10 a month, and while email addresses are $2 a month that meant 4 unused email addresses I would be forced to support.  Maybe if I was running our company email through them things would add up, however I only need one email.  One of the other options and the one I would end up choosing is &lt;a href=&quot;http://www.fastmail.fm&quot;&gt;FastMail&lt;/a&gt;.  At $40 a year plus a free two month trial was too good not to at least try.  Getting set up with FastMail was painless.  I had my account set up through mail on OSX and iOS very quickly.  Email began working within the hour.  Their webmail portal looks and works great too.  &lt;/p&gt;
+
+&lt;p&gt;If you are looking for a simple yet solid combination for web and email hosting I suggest checking out github, iwantmyname, and FastMail. &lt;/p&gt;
+
+&lt;p&gt;(&lt;strong&gt;Disclaimer:&lt;/strong&gt; I am not sponsored or receiving commission from any of the aforementioned companies.) &lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Template for markdown</title>
+   <link href="http://www.geoffreybyers.com/blog/template-for-markdown"/>
+   <updated>2014-05-14T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/template-for-markdown</id>
+   <content type="html">&lt;p&gt;&lt;a href=&quot;http://geoffreybyers.github.io/markdown-template/&quot;&gt;&lt;img src=&quot;/public/images/blog/2014-05-14-template-form-markdown.png&quot; alt=&quot;Markdown Template&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;While switching to blogging in markdown, I wanted a quick reference to open in sublime along with my posts.  I relied heavily on &lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Daring Fireball&lt;/a&gt; by John Gruber.  You can view or download mine as well from the above github page.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Switching to Markdown</title>
+   <link href="http://www.geoffreybyers.com/blog/switching-to-markdown"/>
+   <updated>2014-05-14T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/switching-to-markdown</id>
+   <content type="html">&lt;p&gt;Here I write about using markdown and include some code from a template.&lt;/p&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;text language-text&quot; data-lang=&quot;text&quot;&gt;---
+layout: post
+title: Template for markdown
+date: 2014-05-14
+description: This is a super simple template for markdown which I use with Jekyll.
+keywords: template,diy,how-to
+---
+
+
+#Headers#
+# This is an H1 #
+## This is an H2 ##
+### This is an H3 ###
+#### This is an H4 ####
+##### This is an H5 #####
+###### This is an H6 ######
+
+#Block Quotes#
+&amp;gt; This is a blockquote with two paragraphs. Lorem ipsum dolor sit. amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+
+&amp;gt; Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+#Lists#
+Asterisks, hypehs and plus signs can all be used to designate list items.  The words must be spaced with 4 spaces or a tab.
+
+*   Red
+*   Green
+*   Blue
+
+Or 
+
++   This is a list item with two paragraphs.
+
+    This is the second paragraph in the list item. You&amp;#39;re only required to indent the first line. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
++   Another item in the same list.
+
+Ordered lists utilize numbers followed by periods.
+
+1. Red
+2. Green
+3. Blue
+
+#Codeblocks#
+A code block continues until it reaches a line that is not indented (or the end of the article).
+
+Within a code block, ampersands (&amp;amp;) and angle brackets (&amp;lt; and &amp;gt;) are automatically converted into HTML entities. 
+
+This is a normal paragraph:
+
+    This is a code block.
+
+#horizontal rules#
+You can produce a horizontal rule by placing three or more hyphens, asterisks, or underscores on a line by themselves. If you wish, you may use spaces between the hyphens or asterisks. Each of the following lines will produce a horizontal rule:
+
+***
+OR
+- - -
+OR
+---------------------------------------
+
+#Links#
+##Inline links##
+[This link](http://example.net/) has no title attribute.
+
+##Reference links##
+I get 10 times more traffic from [Google] [1] than from
+[Yahoo] [2] or [MSN] [3].
+
+  [1]: http://google.com/        &amp;quot;Google&amp;quot;
+  [2]: http://search.yahoo.com/  &amp;quot;Yahoo Search&amp;quot;
+  [3]: http://search.msn.com/    &amp;quot;MSN Search&amp;quot;
+
+##Automatic links##
+&amp;lt;http://example.com/&amp;gt;
+
+#Emphasis#
+*em*
+_em_
+**strong**
+__strong__
+
+#Code#
+Use the `printf()` function.
+
+#Images#
+![Alt text](/path/to/img.jpg)
+![Alt text](/path/to/img.jpg &amp;quot;Optional title&amp;quot;)
+
+#Esacpes
+
+\\   backslash
+\`   backtick
+\*   asterisk
+\_   underscore
+\{\}  curly braces
+\[\]  square brackets
+\(\)  parentheses
+\#   hash mark
+\+   plus sign
+\-   minus sign (hyphen)
+\.   dot
+\!   exclamation mark
+
+#Thanks#
+http://daringfireball.net/projects/markdown/
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Sharing with Purpose</title>
+   <link href="http://www.geoffreybyers.com/blog/sharing-with-purpose"/>
+   <updated>2014-05-09T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/sharing-with-purpose</id>
+   <content type="html">&lt;p&gt;I&amp;#39;ve been on a hiatus from social media for some time.  My relationships with Twitter, Facebook, Instagram were always hit or miss.  I&amp;#39;d go through periods of using them for bursts and then leaving them behind.  In some cases moving on to trying new platforms.  I joined Facebook in 2006 as a college freshman.  I&amp;#39;ve learned that I need a purpose to do anything in life.  That purpose is mine to set.  I&amp;#39;m a goal setter and an overachiever.  If I don&amp;#39;t set a direction, I&amp;#39;m usually lost and not enjoying myself.  I&amp;#39;ve recently started using Twitter again, with purpose.  I&amp;#39;ve set goals for myself and check in nightly.&lt;/p&gt;
+
+&lt;h2&gt;Intention&lt;/h2&gt;
+
+&lt;p&gt;Setting an intention determines the purpose or reason for engagement.  It helps focus on, say, sharing design and tech related as opposed to photos of cats, food and other things that would dilute my intentions.  I wanted to leverage Twitter for a number of reasons relating to my career.  &lt;/p&gt;
+
+&lt;p&gt;After selecting a scope, it&amp;#39;s easy to under stand the breath of my interactions on Twitter.  These would specifically focus on interactions with those in my discpline and those closely related.  The depth in interactions ranges from following people, starting conversations with people, contributing to conversations, sharing ideas, sharing topics, favoriting tweets and retweeting.  Basically engaging with similar people on topics relating to my professional ambitions.&lt;/p&gt;
+
+&lt;h2&gt;Attention&lt;/h2&gt;
+
+&lt;p&gt;Setting an attention level dictates how much you&amp;#39;re willing to put into whatever it is you&amp;#39;re intending to do.  This could also be explained as frequency.  If I stopped at intention, I would have a &amp;#39;what&amp;#39; without a &amp;#39;how&amp;#39;.  I set qualitative and quantitative goals, reoccurring daily.  This requires I spend some amount of time daily pursuing my intention.  My attention to my purpose is engaging with other twitter users a set amount of times in each day, throughout the day.&lt;/p&gt;
+
+&lt;h2&gt;Sprinting&lt;/h2&gt;
+
+&lt;p&gt;Setting short cycles with clear success criteria allows an ongoing analysis into failure and success.  Shortening the time of the cycle allows for minimal failure and encourages positive trajectory.  My accountability would, at it&amp;#39;s worst, allow for a failure of one day before the cycle resets.  What would be detrimental to morale would be working hard at something for a long amount of time, only to find you were paddling in the wrong direction.  In time I may increase the time of the sprint cycle, however for now I am keeping things to 24 hour cycles.&lt;/p&gt;
+
+&lt;h2&gt;Analysis&lt;/h2&gt;
+
+&lt;p&gt;Qualitative and quantitative insights are the most holistic metric for determining positive trajectory.  Are you matching positive intention with positive attention.  For me this is &amp;quot;Am I engaging how I set, at the frequency I set&amp;quot; or high quality twitter interactions my benchmark number of times through each day.  Quantitative is an easy metric for me to measure, just be looking at twitter and &lt;/p&gt;
+
+&lt;h2&gt;Cheat&lt;/h2&gt;
+
+&lt;p&gt;Embracing succeeding at all costs may not guarantee success but it will guarantee action.  I don&amp;#39;t necessarily believe in cheating, and &amp;#39;hacking&amp;#39; might be more accurate terminology.  I scrape news sources for potential articles to share, skim through them as I normally would, hand pick the best ones and then schedule my tweets for peak times of the day.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Rice and Beans for Maslow</title>
+   <link href="http://www.geoffreybyers.com/blog/rice-and-beans-for-maslow"/>
+   <updated>2014-05-05T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/rice-and-beans-for-maslow</id>
+   <content type="html">&lt;p&gt;Raised in New Orleans, I grew up in a world class culture.  Between music and food, I spent most of my former years developing a complex palette around a culture spicy in a multitude of ways.  I also picked up exploring, resulting in my value of road maps over directions.  Processes over recipes.  This follows my obsession with a system level framework which I&amp;#39;ve been developing and revealing.  This allows for freedom for experimentation within a guided approach.  Some, but not all of the variables are locked down as constants.&lt;/p&gt;
+
+&lt;p&gt;While chasing self actualization it is quite easy to let things like food go to the wayside.  Maslow places physiological needs as the base for everything else.  While I cannot help everyone around me with the actualization portion, I feed them.  They don&amp;#39;t know the basis behind for this, yet.  All they know is when I am in Dallas at Fort Work, beans start cooking sometime early in the morning in a slow cooker in ready for the 12pm rush.  The smell engulfs the entire floor of the building.&lt;/p&gt;
+
+&lt;p&gt;Beans involve two separate stages in my dishes.  The first is repetitive soaking ~2 hours total.  This gets the beans tender, allows them to absorb all of the water they need first and removes the oligosaccharides (the cause of intestinal gas).  I soak the beans in hot (200 deg.) water, not necessarily boiling.  Dump out and wash beans three times in cold water, replacing with hot water and letting them sit for up to 24 hours.  The second involves cooking and seasoning.  I use a slow cooker and cook on low from 2am to 12pm with a timer.  If I&amp;#39;m cooking the day of, or in a rush I cook on high for half the time.  The beans always come out soft, but not sloppy.  We&amp;#39;ll save that for curry.&lt;/p&gt;
+
+&lt;p&gt;I like how pinto, navy and kidney beans work out the best and combinations of these three are awesome together.  I don&amp;#39;t measure out spices by volume.  I have a rule of thumb for dumping them in ratios and I usually season by feel and to taste.  Always under season and continue adding to approach ideal seasoning.&lt;/p&gt;
+
+&lt;p&gt;Produce:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;  2 lb dried beans (pinto and red kidney)&lt;/li&gt;
+&lt;li&gt;  1/2 an onion&lt;/li&gt;
+&lt;li&gt;  3 stalks celery&lt;/li&gt;
+&lt;li&gt;  3 cloves garlic&lt;/li&gt;
+&lt;li&gt;  1/2 green bell pepper&lt;/li&gt;
+&lt;li&gt;  2 jalapeno&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Spices:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt; 3 tbsp Slap ya Mama (replaces salt and pepper)&lt;/li&gt;
+&lt;li&gt; 3 tbsp cayenne&lt;/li&gt;
+&lt;li&gt; 1 tbsp cumin&lt;/li&gt;
+&lt;li&gt; 2 tsp thyme&lt;/li&gt;
+&lt;li&gt; 2 tsp sage&lt;/li&gt;
+&lt;li&gt; 2 tsp oregano&lt;/li&gt;
+&lt;li&gt; 2 bay leaves&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Fill up the pot with the produce, season, fill with water until 1&amp;quot; of water covers the mix, flick on, wait, eat, accomplish.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Travel Hacking - the $24 Ticket</title>
+   <link href="http://www.geoffreybyers.com/blog/travel-hacking-the-24-dollar-ticket"/>
+   <updated>2014-05-02T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/travel-hacking-the-24-dollar-ticket</id>
+   <content type="html">&lt;h2&gt;tl;dr&lt;/h2&gt;
+
+&lt;p&gt;I travel a lot.  Between Chicago, San Francisco, New Orleans, Dallas and Denver to name a few places I frequent.  I&amp;#39;ve learned to travel cheaply by utilizing a few tools and techniques.  In all honestly, just travel on ticket prices as opposed to specifically fixed dates.  It&amp;#39;ll save you a ton.  Regardless, use some of the tools on Kayak to try to squeeze some money out of those ticket purchases.&lt;/p&gt;
+
+&lt;h2&gt;My cheapest ticket&lt;/h2&gt;
+
+&lt;p&gt;During my time in Dallas, I booked an all time low ticket for $24 on Spirit Airlines to New Orleans.  For the price of 3 drinks I was back in my home city enjoying some of the best jazz music in the world.  Sure, Dallas is a hub.  Sure, Dallas and New Orleans is a 500 mile ~7 hour drive.  No, I&amp;#39;m not a member of the $9 fare club.  No, I didn&amp;#39;t hack in the sense of breaking into a database to get an artificially low fare.  I used a few techniques I&amp;#39;ve been developing over the last year to get an ultra low fare.  This is just one example of the many cheap flights I&amp;#39;ve scored.  &lt;/p&gt;
+
+&lt;h2&gt;Travel as a commodity&lt;/h2&gt;
+
+&lt;p&gt;One of the important realizations I made was that flying domestically is a commodity.  It&amp;#39;s not a service, at least that&amp;#39;s not how the industry treats it.  It&amp;#39;s an all out race for the bottom.  If you look at flying in this way, in the end you&amp;#39;re getting from one place to another regardless of airline.  I don&amp;#39;t believe airlines are quantitatively or even qualitatively better.  I do think Virgin is in a league of it&amp;#39;s own domestically.  After that, it&amp;#39;s a rat race and price is the only differentiating factor.&lt;/p&gt;
+
+&lt;h2&gt;Travel based on location, with flexible dates&lt;/h2&gt;
+
+&lt;p&gt;Probably the most important thing I do to lower fares is to embrace the mentality that I want to get somewhere specific, within a date range.  I make things work.  Sure, holiday travel will always have massive peaks.  You can still avoid things like weekend peaks and some holiday peaks too by nimbly traveling around them.  People like me buy the less desirable tickets.  Sometimes this means traveling on holiday days.  It often means traveling during the middle of the day and during the week days.  As I work from wherever I am, this doesn&amp;#39;t really matter and I make up for the travel time by working without my computer.&lt;/p&gt;
+
+&lt;h2&gt;Use Kayak&amp;#39;s tools&lt;/h2&gt;
+
+&lt;p&gt;I use Kayak for most of my initial flight researching.  This is mainly because of their tools: price alert, price matrix, and price trend.&lt;/p&gt;
+
+&lt;h3&gt;Price alert&lt;/h3&gt;
+
+&lt;p&gt;In short, you create an alert for a searched flight.  You are then emailed as prices drop.  I usually search multiple times through the day/night across multiple days to track this myself.  It&amp;#39;s useful if you&amp;#39;re into automation or reminders though.&lt;/p&gt;
+
+&lt;h3&gt;Price matrix&lt;/h3&gt;
+
+&lt;p&gt;Searching across multiple days makes sense if you&amp;#39;ve got very restricted travel-ability.  As I&amp;#39;m open to all options I use the matrix to see when flights are cheapest if time is a variable.  I use this more than price alert, as it lets me check nearly all potential flights simultaneously.&lt;/p&gt;
+
+&lt;h3&gt;Price Trend&lt;/h3&gt;
+
+&lt;p&gt;This is a fascinating and, in my opinion, the most useful feature of Kayak.  You can use their graph of prices of tickets to figure out whether to buy a flight now, or whether to wait it out and see if the price falls.&lt;/p&gt;
+
+&lt;h2&gt;Choose your fare&lt;/h2&gt;
+
+&lt;p&gt;I&amp;#39;ve used Priceline to get steep discounts up to 40% on flights.  This was true of last minutes flights during peak times too.  The interesting point here is that you bid with the agreement that if you win your credit card is charged.  You can still specify times you&amp;#39;re willing to travel so that you&amp;#39;re not stuck with red eye flights.  &lt;/p&gt;
+
+&lt;h2&gt;Buy one way tickets&lt;/h2&gt;
+
+&lt;p&gt;I&amp;#39;ve noticed that buying round trip tickets is often easier on the consumer, however not necessarily cheaper.  Buying multiple one way tickets allows for the maximum flexibility regarding airlines as well as time and date.  I often buy multiple one way tickets back to back.  This is by far the easiest way to do trips with more than one destination other than paying a travel agent.&lt;/p&gt;
+
+&lt;h2&gt;Include nearby airports&lt;/h2&gt;
+
+&lt;p&gt;Many times, you may have one option to fly to a set destination.  Other times, flying across the country to LA can be had for cheaper by flying through SFO, renting a car, and driving.  This is true of most places where airports are within reasonable driving or public transportation distance.&lt;/p&gt;
+
+&lt;h2&gt;Pack light&lt;/h2&gt;
+
+&lt;p&gt;Being a minimalist, packing light isn&amp;#39;t difficult.  However, catching last minute flights, giving up seats for vouchers and avoiding luggage costs can be avoided by packing a small duffel or backpack.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Hacking Stress via Meditation</title>
+   <link href="http://www.geoffreybyers.com/blog/meditation"/>
+   <updated>2014-05-01T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/meditation</id>
+   <content type="html">&lt;h2&gt;tl;dr&lt;/h2&gt;
+
+&lt;p&gt;Meditation might help you increase focus, work output, optimism while decreasing stress and bullshit.&lt;/p&gt;
+
+&lt;h2&gt;A Massive Challenge&lt;/h2&gt;
+
+&lt;p&gt;Lack of focus has never been a weakness of mine.  Anxiety due to stress in the face of being overloaded, however, is.  I thrive in stressful environments.  This would include coming into projects at critical moments and steering the ship in the right direction.  Some call this damage control.  I see it as much more than that.  I was calling in for such a project during my time at Siemens.  The product was one of those legendary projects of the magnitude I had been lusting to encounter.  The product was named &lt;a href=&quot;http://www.plm.automation.siemens.com/en_us/products/nx/&quot; title=&quot;Automation Designer&quot;&gt;Automation Designer&lt;/a&gt;, for the PLM product - NX.  As in the CAD software formerly knows as Unigraphics.  This was the descendant of the first CAM product for users dating back to 1969.  Automation Designer was the redesign attempt of a failed engineering driven platform.  Basically engineers built this insanely complicated software, users could not use it, contracts were in jeopardy and I was called in to lead  the design effort.  I&amp;#39;ll dig in deeper into the project and what I learned in another post.  Needless to say, this was stressfully especially when piled on top of a few other projects and the fact that this was my first major project with coworkers working beneath me.  I turned inward toward meditation to learn to stay focused and navigate my way through the project successfully.&lt;/p&gt;
+
+&lt;h2&gt;My first attempts&lt;/h2&gt;
+
+&lt;p&gt;Out of necessity I left my team and our building whenever I felt my work was being impacted.  I&amp;#39;d lie down in a secluded patch outside, where my managers or coworkers would not interrupt my meditation.  I&amp;#39;d turn off my phone, aside from an alarm, and focus on breathing and quieting my thoughts.  I didn&amp;#39;t listen to music, or guided meditation.  I didn&amp;#39;t sit in any poses, and I didn&amp;#39;t read any books.  I just needed to do, and I did.  The results were amazing.  Regardless of the hailstorm that was going on between myself and computers thousands of miles away, I would get myself back on track.  One fifteen minute session I would let go of everything going on, and meditate until I would realize I was alright.  If anything I began to meditate more frequently, but for shorter amounts of time.  This was exceptionally useful when a long chain of emails would make the project feel as if it was taking two steps forward and fifteen backwards.&lt;/p&gt;
+
+&lt;h2&gt;What is meditation&lt;/h2&gt;
+
+&lt;p&gt;Well, it&amp;#39;s rather intangible.  The best explanation I have is that if you&amp;#39;re meditating you&amp;#39;re doing it right.  It&amp;#39;s not about getting somewhere, it&amp;#39;s about the journey.  Just focusing on your thoughts, or not, while relaxed and not in front of a glowing screen constitutes meditation.  Eyes opened or closed, prone position or full lotus it doesn&amp;#39;t matter.  Letting go does.&lt;/p&gt;
+
+&lt;h2&gt;Getting Started&lt;/h2&gt;
+
+&lt;p&gt;Don&amp;#39;t worry about meditation challenges, techniques or outcomes.  If you&amp;#39;re going to try this, I recommend embracing it as an experiment and starting with the intent to meditate at least once a day for 5 days in a row.  I do not believe in the 28 day rule for habit forming.  That&amp;#39;s a myth.  I do believe in one week sprints.  Time of the day isn&amp;#39;t as important as purpose and frequency.  My purpose was to mitigate stress at work, so I would meditate at work when I needed breaks.  What&amp;#39;s keeping you from accomplishing greatness?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Getting Out of Your Comfort Zone</title>
+   <link href="http://www.geoffreybyers.com/blog/getting-out-of-your-comfort-zone"/>
+   <updated>2014-04-30T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/getting-out-of-your-comfort-zone</id>
+   <content type="html">&lt;p&gt;I grew custom to designing behind a desk.  In design school, my professors encouraged us to hold studio time.  They also encouraged user involvement and testing.  At my internship and later full time job, part of my responsibilities included usability testing.  This was scheduled and sporadic.  The rest of the time I was either in my cubicle or at a clients site designing heads down.  It was not until I started Great Job that I took the full plunge into incorporating co-designing with my partner Jordan, clients, and users.&lt;/p&gt;
+
+&lt;p&gt;While justifying my designs to senior engineers, I realized that everything we were working on was based on an assumption.  Designing solutions for poor current software was not as difficult as starting something new.  In most cases, any improvement I spearheaded was a drastic one.  After conducting usability studied worldwide, I began to realize the double edged sword of usability testing.  In one regard I wielded it as an awesome power to get a pulse on the current direction of design.  In another, I dreaded not being able to involve users in a more informal setting earlier in the project.  I mastered formal usability studies, but longed for incorporating informal guerrilla style user research.  Without stakeholder buy in and budget, I leveraged usability testing to the maximum potential before departing on my own endeavor.&lt;/p&gt;
+
+&lt;p&gt;With Great Job, I suddenly had a serious voice in structuring projects.  Jordan and I are both believers in early user involvement, throughout the design process and life cycle of product.  We began aggressively pitching ourselves as designers who rely on testing as a core tenant of the process not part of the process.   We believe in rapid iteration, design workshops and coffee shop user research.  Fortunately we found a few clients early on who bought into our methodologies and processes.&lt;/p&gt;
+
+&lt;p&gt;I also embrace designing from a variety of locations.  A majority of the time I split my time between Chicago, Dallas, and New Orleans.  We also travel to San Francisco fairly frequently as well.  Within these locations I split my time between co-working spaces, coffee shops, studios and client locations.  This enables me to change things up when I&amp;#39;m getting feeling stagnant.  It also forces me into different styles of design.  When I need to get heads down work done, I tend to work out of coffee shops and co-working spaces.  When I&amp;#39;m co-designing I frequent the studio.  When we&amp;#39;re involving users, this is often at coffee shops.&lt;/p&gt;
+
+&lt;p&gt;I also split my time between the glow of my Macbook Pro and my notebook.  I find that working in a notebook first allows me to waste less time on a computer.  I also feel that the constraints of thinking freely with a pen help to get ideas out and down, and enables me to refine them later on my computer.&lt;/p&gt;
+
+&lt;p&gt;Involving users provides critical feedback early on, and encourages more iteration and less turd polishing mentality.  Changing location forces me to work in different ways.  Removing the computer screen forces me to think in the world and work on the computer.  Change is a powerful catalyst, regardless of your change.  Life is a big experiment, so why not?&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Why I Drive Vintage Diesels</title>
+   <link href="http://www.geoffreybyers.com/blog/why-I-drive-vintage-diesels"/>
+   <updated>2014-04-29T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/why-I-drive-vintage-diesels</id>
+   <content type="html">&lt;h2&gt;tl;dr&lt;/h2&gt;
+
+&lt;p&gt;I own two vintage German diesel cars.  They&amp;#39;re quirky, unique and pleasurable drivers.&lt;/p&gt;
+
+&lt;h2&gt;Obsession&lt;/h2&gt;
+
+&lt;p&gt;I own and drive two vintage German diesel automobiles.  I&amp;#39;ve searched for years and flown across the country to buy them.  It began with an attraction to the boxy, yet sophisticated 1980&amp;#39;s Mercedes 300D.  The legendary body style of the w123 along with the bulletproof drive chain is in my opinion one of the greatest automobiles of all time.  I then became interested in the mark 2 VW golf and later the mark 1 golf.  My first car of my own was and still is my 1979 VW golf, or rabbit as they branded them in North America.  I flew out to Salt Lake City to finalize the deal done via ebay and drove it back the 2,156 miles to Savannah, GA.  I later picked up a 1972 Mercedes 220d from a close friend who did not want to deal with the headaches that came with it.  Both cars have lead to some of my most memorable times on the road.&lt;/p&gt;
+
+&lt;h2&gt;Simplicity&lt;/h2&gt;
+
+&lt;p&gt;I have an affinity towards simple, well designed and well built things.  Before I procured my VW, I couldn&amp;#39;t work on cars past changing a wheel and the oil.  Both the VW and the Mercedes are extremely simple cars when compared to modern cars.  While the VW was and is in exceptional mechanical condition, I learned the ins and outs of performing preventative maintenance.  The Mercedes was in much poorer mechanical condition, however over the last year I&amp;#39;ve been slowly restoring it to it&amp;#39;s former glory.  Both automobiles are manual everything.  The electrical systems are sans engine computers and fuel is delivered via a mechanical fuel pump.  &lt;/p&gt;
+
+&lt;h2&gt;Efficiency&lt;/h2&gt;
+
+&lt;p&gt;Diesels use high compression as opposed to a spark plug to initiate combustion.  This results in a drastically more efficient engine.  Saving money was a plus, however I am infatuated by waste reduction and getting the most out of what I have.  People often ask me if I&amp;#39;ve converted my cars to run on biodiesel.  I&amp;#39;ve changed out the fuel lines to synthetic so that my cars handle biodiesel well, however I&amp;#39;ve only run blends up to this point.  Both cars would run on dyno diesel, biodiesel or even waste oil, known as WVO.  I&amp;#39;ve also yet to brew my own biodiesel.&lt;/p&gt;
+
+&lt;h2&gt;Reliability&lt;/h2&gt;
+
+&lt;p&gt;Both of my cars, and many of the older diesels are legendary in terms of reliability.  I do all of my own maintenance thanks to the folks over at &lt;a href=&quot;http://forums.vwvortex.com/&quot;&gt;VW Vortex&lt;/a&gt; and Ken Bergma of &lt;a href=&quot;https://mercedessource.com/&quot;&gt;Mercedes Source&lt;/a&gt;.  These are just two of the few wonderful communities which help with advice and sourcing of harder to find parts.  Most things are reasonably priced, however certain parts for the Mercedes are exceptionally hard to source.  I am very hands on with my cars, which contributes to the reliability.  These cars, especially the older ones, are definitely not set it and forget it.&lt;/p&gt;
+
+&lt;h2&gt;Character&lt;/h2&gt;
+
+&lt;p&gt;I&amp;#39;ve had my cars and diesels in general compared to living creatures.  I&amp;#39;m not sure if it&amp;#39;s the engines purring at the same rate a a cat or not (26 cycles per second).  I think it comes from the quirkiness of the car, and the workhorse industrial reputation of diesel engines.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Searching for Simplicity</title>
+   <link href="http://www.geoffreybyers.com/blog/searching-for-simplicity"/>
+   <updated>2014-04-29T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/searching-for-simplicity</id>
+   <content type="html">&lt;h2&gt;tl;dr&lt;/h2&gt;
+
+&lt;p&gt;You&amp;#39;re going to upset people, but life is too short not to experiment.  Get out of your comfort zone and get rid of the bullshit in your life.  You&amp;#39;ll appreciate your freedom.&lt;/p&gt;
+
+&lt;h2&gt;Why?&lt;/h2&gt;
+
+&lt;p&gt;I became unpleased with my life.  I&amp;#39;m not sure when I realized it, but knew I had to change something drastic.  My pursuits in life were no longer in line with my values.  I realized I was trading my time for money in order to buy things which did not add value to my life.  These things began owning me, resulting in me trading more time for more money for more purchases.&lt;/p&gt;
+
+&lt;p&gt;I became obsessed with minimalism.  I care deeply about the ideas on which I&amp;#39;m focused.  I feel optimal when I have more control over these ideas, and less than optimal when someone is telling me the ideas on which focus ie. corporate management.  I was moving further away from my ideas, and began loosing the desire to chase them.  I decided to make a radical change which would result in me embracing a minimal and nomadic state of being in pursuit of the things which fuel me.&lt;/p&gt;
+
+&lt;h2&gt;Misaligned Values&lt;/h2&gt;
+
+&lt;p&gt;Financial freedom.  I forcibly lowered and maintain a low cost of living.&lt;/p&gt;
+
+&lt;p&gt;Clearness of mind.  If I have a cluttered mind, I have a cluttered space and vice versa.  Instead of surrounding myself with things, I removed them and surrounded myself with my ideas and passion projects.  If I have a cluttered mind now, I surround myself by thinking through things specially.&lt;/p&gt;
+
+&lt;p&gt;Focusing on intangibles - the only way was to reduce and remove the unnecessary tangibles.&lt;/p&gt;
+
+&lt;p&gt;Travel with little planning.  Nowadays I spend my time split between a few cities.  I&amp;#39;m still getting my bearings, however I travel on a whim.  My only bag is my carry-on luggage and nearly all of my daily things fit into it easily.&lt;/p&gt;
+
+&lt;h2&gt;On throwing things out&lt;/h2&gt;
+
+&lt;p&gt;My first leap was choosing to give up sleeping in a bed.  With no dependents or significant others in my life this was an option for me.  The bed signified a grounding to a particular location.  I replaced it once with a hammock and later with a cheap and mobile camping mat.  I&amp;#39;ve left a few of these in various cities so that I can travel light and always have a place to crash.  &lt;/p&gt;
+
+&lt;p&gt;I also rid myself of any comfort items in order to tackle comfort and anxiety head on.  This included tables, reading chairs, decorations, lamps, etc.  I donated everything I could not deal with parting with to thrift stores and made everything fit into my hatchback.  I&amp;#39;ve continuously reduced this.  I&amp;#39;m not one to play the whole 120 items game, yet.  My criteria for selection: &amp;quot;Does this thing enable me to be more productive?&amp;quot; if not get rid of it.&lt;/p&gt;
+
+&lt;h2&gt;Time tracking&lt;/h2&gt;
+
+&lt;p&gt;I also began experimenting with my new freedom by exploring time tracking in different ways.  This changes between holding consistent hours, sprints and cool off periods and late night sessions.  I&amp;#39;m an avid user of egg timer and tend to work best in 60 or 120 minute bursts.  I plan out each day and also each sprint throughout the day.  I&amp;#39;m not doing this to bill anyone, but to try to take my commodity, time, and get the most out of it.&lt;/p&gt;
+
+&lt;h2&gt;Financial tracking&lt;/h2&gt;
+
+&lt;p&gt;I know my burn rate and how long I can live on a variable income.  I&amp;#39;m still earning income, and have a nest egg, I just work for hire more sporadically as I&amp;#39;m not currently a wage slave.  This is some mix of consulting contracts, retainers, workshops, speaking engagements and soon our own products.  I use a spreadsheet to track my budget and expenses for the month.  I&amp;#39;ve slimmed these down dramatically and cut out most recurring comfort expenses.&lt;/p&gt;
+
+&lt;h2&gt;It freaks people out&lt;/h2&gt;
+
+&lt;p&gt;Most people can&amp;#39;t grasp minimalism as it is a departure from the system which birthed us.  Instead of competing on ownership of objects you&amp;#39;re operating in a completely different spectrum.  My closest friends don&amp;#39;t get it, but they respect that I am pursuing decisions which increase my happiness.  Haters will hate - you do you.&lt;/p&gt;
+
+&lt;h2&gt;The catalyst&lt;/h2&gt;
+
+&lt;p&gt;I required a major event in my life to reshape my philosophies.  It started for me as an exodus out of the North East, away from a career in Corporate America.  Regardless of the magnitude, the effects can be tremendously powerful.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Swallowing the Code</title>
+   <link href="http://www.geoffreybyers.com/blog/swallowing-the-code"/>
+   <updated>2014-04-28T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/swallowing-the-code</id>
+   <content type="html">&lt;p&gt;As a designer I had shyed away from coding until recently.  I could easily stick to user research and validation, sketching, lo and hifi mockups, and some clunky prototypes.  No matter the scope or depth of the project, the concepts always lacked the interactivity I intended.  As part of larger teams in the past, prototyping had been left to members with CS degrees who were proficient in a multitude of languages.  Fast forward to starting Great Job and all of a sudden I was thrown into a pool and coded my way out. &lt;/p&gt;
+
+&lt;p&gt;Like many other Gen Xers I put together a few websites in text editors and built websites with help from Dreamweaver.  In highschool I dabbled in a bit more html and some visual basic without much of an intent or desire.  Without purpose, I didn&amp;#39;t really care to learn something that was undoubtedly challenging and daunting.&lt;/p&gt;
+
+&lt;p&gt;I really started with creating physical prototypes with Arduino during my time at Siemens.  This was in part because I needed a creative outlet for all of my ideas, I wanted something tangible aside from pure UX work, and a competition a former studio mate and I had.  We launched an installation piece and I later focused on a kombucha brewer which I got working before my departure.&lt;/p&gt;
+
+&lt;p&gt;While starting any large endeavor, it&amp;#39;s nearly impossible to keep everything tight early on as there are simply too many moving pieces.  After starting Great Job, we had a pretty lousy wordpress site.  I jumped onto building the next version of our site which was basic html and css.  Most of the time went into the styling, as is of the utmost importance when developing a minimalist style.  The code was decent, though the CSS was a messy organization that only I could easily parse through.&lt;/p&gt;
+
+&lt;p&gt;I later prototyped the initial version of Wordoko, which was later used for testing and showing to dev teams.  In the sake of the MVP, I strung together pieces of code from different areas - namely canvases, JS drawing and a menu structure.  It was very much so hacked together, but that was all the time and budget the project called for.  In the end, the client was super excited with the webapp I had put together and we still have an awesome relationship with him.&lt;/p&gt;
+
+&lt;p&gt;I used Bootstrap and Flat UI to prototype the Empeopled concept.  Instead of jumping into Photoshop and handing that off to the developer, we were able to hand off exactly what we intended.  We provided the team a very basic spec document, code with comments and a functioning prototype.  &lt;/p&gt;
+
+&lt;p&gt;I admit, coding is scary.  It&amp;#39;s also easy to &amp;quot;leave it to the experts&amp;quot;.  However, when carrying a concept forward it has helped immensely for me to indicate interactions, explore micro-interactions,  and test functioning concepts.  Code academy is a &amp;quot;safe&amp;quot; start if you&amp;#39;re risk adverse.  If you&amp;#39;re not, jump in and try to make your concepts come to life.  I challenge you.&lt;/p&gt;
+</content>
+ </entry>
+ 
+ <entry>
+   <title>Blogging with Jekyll and Hyd</title>
+   <link href="http://www.geoffreybyers.com/blog/blogging-with-jekyll-hyde-and-markdown"/>
+   <updated>2014-04-28T00:00:00-05:00</updated>
+   <id>http://www.geoffreybyers.com/blog/blogging-with-jekyll-hyde-and-markdown</id>
+   <content type="html">&lt;p&gt;I got tired of Wordpress.  While beginning to really embracy minimalism I began looking for an alternative to the bloated platform rich with tools and plugins.  I wanted something that worked, was lightweight and simple to use once set up.  I wanted to install Ghost, Anchor CMS or Jekyll but was deterred by the setup process.  I experimented with and settled on Dropplets by Circa75 Media elsewhere.  At the time it was a straightforward install.&lt;/p&gt;
+
+&lt;p&gt;I&amp;#39;ve been embracing coding over the last year and decided I wanted to take full control over my personal site and blog, using it as a test case for clients.  Jekyll was fairly easy to get up and running once I got Ruby updated and RVM and the jekyll ruby gem installed correctly.  To keep things aesthetically pleasing and moving quickly, my coworking mate &lt;a href=&quot;http://www.amirrajan.net&quot;&gt;Amir Rajan&lt;/a&gt; recommended I go with Hyde.  I choose to host both on github pages again for the low barrier of entry.  I&amp;#39;m modifying the css and html as I go, however things were up and running in a number of hours.  Without the ruby and first time hiccups - a matter of minutes.&lt;/p&gt;
+
+&lt;p&gt;If you&amp;#39;re up for the challenge of coding a bit and rolling something custom for you, give Jekyll a spin.&lt;/p&gt;
+
+&lt;p&gt;Thanks to the &lt;a href=&quot;https://github.com/jekyll&quot;&gt;Jekyll team&lt;/a&gt;, and &lt;a href=&quot;http://markdotto.com/&quot;&gt;Mark Otto&lt;/a&gt; for Hyde.&lt;/p&gt;
+</content>
+ </entry>
+ 
+
+</feed>

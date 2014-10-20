@@ -1,10 +1,15 @@
 ---
 layout: post
 title: Searching for Simplicity
+author: Geoffrey Byers
 date: 2014-04-29
+quote: 
+image: /media/searching-for-simplicity/cover.jpg
 description: A journey of reduction to determine the bare essentials.
 excerpt: You're going to upset people, but life is too short not to experiment.  Get out of your comfort zone and get rid of the bullshit in your life.  You'll appreciate your freedom.
 keywords: minimalism,simplicity,reduction,reductionism,subtraction,subtractivism
+video: false
+comments: true
 ---
 ##tl;dr##
 You're going to upset people, but life is too short not to experiment.  Get out of your comfort zone and get rid of the bullshit in your life.  You'll appreciate your freedom.

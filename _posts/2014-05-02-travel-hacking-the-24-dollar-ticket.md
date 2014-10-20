@@ -1,10 +1,15 @@
 ---
 layout: post
 title: Travel Hacking - the $24 Ticket
+author: Geoffrey Byers
 date: 2014-05-02
+quote:
+image: /media/travel-hacking-the-24-dollar-ticket/cover.jpg
 description: Cheap traveling tips while living a nomadic lifestyle.
 excerpt: I travel a lot.  Between Chicago, San Francisco, New Orleans, Dallas and Denver to name a few places I frequent.  I've learned to travel cheaply by utilizing a few tools and techniques.
 keywords: travel,nomad,jetsetter,jetset
+video: false
+comments: true
 ---
 
 ##tl;dr##

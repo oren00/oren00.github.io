@@ -1,10 +1,15 @@
 ---
 layout: post
 title: Why I Drive Vintage Diesels
+author: Geoffrey Byers
 date: 2014-04-29
+quote:
+image: /media/why-I-drive-vintage-diesels/cover.jpg
 description: My explanation into why I drive vintage diesel automobiles.
 excerpt: I own two vintage German diesel cars.  They're quirky, unique and pleasurable drivers.
 keywords: minimalism,simplicity,vintage,diesel,german
+video: false
+comments: true
 ---
 ##tl;dr##
 I own two vintage German diesel cars.  They're quirky, unique and pleasurable drivers.

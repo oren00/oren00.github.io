@@ -1,10 +1,15 @@
 ---
 layout: post
 title: Rice and Beans for Maslow
+author: Geoffrey Byers
 date: 2014-05-05
+quote: Feed your inner hunger.
+image: /media/rice-and-beans-for-maslow/cover.jpg
 description: What you need to achieve is a bowl of beans and rice.  Feed your inner hunger.
 excerpt: Raised in New Orleans, I grew up in a worldclass culture.  Between music and food, I spent most of my former years developing a complex palete around a culture spicy in a multitude of ways.  I also picked up exploring, resulting in my value of roadmaps over directions.
 keywords: maslow,need,food,community
+video: false
+comments: true
 ---
 
 Raised in New Orleans, I grew up in a world class culture.  Between music and food, I spent most of my former years developing a complex palette around a culture spicy in a multitude of ways.  I also picked up exploring, resulting in my value of road maps over directions.  Processes over recipes.  This follows my obsession with a system level framework which I've been developing and revealing.  This allows for freedom for experimentation within a guided approach.  Some, but not all of the variables are locked down as constants.

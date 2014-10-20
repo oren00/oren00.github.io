@@ -1,8 +1,9 @@
 ---
 layout: page
-title: Dribb.ly
+title: Dribb.ly | Great Job
 ---
 
 
-![Dribb.ly](/public/images/dribbly.png "Dribb.ly")
-Holding conversations on twitter can get noisy.  [Dribbly](http://dribb.ly/) provides a minimal discussion platform, piggybacking on twitter for commenting.  It launched May, 2014.
+[link](http://dribb.ly/) 
+
+Holding conversations on twitter can get noisy.  Dribbly provides a minimal discussion platform, piggybacking on twitter for commenting.  It launched May, 2014.

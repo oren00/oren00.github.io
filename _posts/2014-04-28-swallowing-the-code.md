@@ -1,10 +1,15 @@
 ---
 layout: post
 title: Swallowing the Code
+author: Geoffrey Byers
 date: 2014-04-28
+quote:
+image: /media/swallowing-the-code/cover.jpg
 description: Starting to code as a designer.
 excerpt: As a designer I had shyed away from coding until recently.  I could easily stick to user research and validation, sketching, lo and hifi mockups, and some clunky prototypes.  No matter the scope or depth of the project, the concepts always lacked the interactivity I intended.
 keywords: prototyping,designing,coding,bootstrap,arduino,beginner
+video: false
+comments: true
 ---
 
 As a designer I had shyed away from coding until recently.  I could easily stick to user research and validation, sketching, lo and hifi mockups, and some clunky prototypes.  No matter the scope or depth of the project, the concepts always lacked the interactivity I intended.  As part of larger teams in the past, prototyping had been left to members with CS degrees who were proficient in a multitude of languages.  Fast forward to starting Great Job and all of a sudden I was thrown into a pool and coded my way out. 

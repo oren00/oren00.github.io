@@ -1,0 +1,13 @@
+---
+layout: page
+title: All the articles.
+---
+
+<h1 class="post-title">Articles</h1>
+<ul class="ul-sans">
+  {% for post in site.posts %}
+  <li>
+    <span class="">{{ post.date | date: '%B %d, %Y' }}&nbsp;&nbsp;</span><a href="{{ post.url }}">{{ post.title }}</a>
+  </li>
+  {% endfor %}
+<ul>

@@ -1,24 +1,97 @@
-# Dependencies
+# Where things are
+source:      .
+destination: ./_site
+# plugins:     ./_plugins
+layouts:     ./_layouts
+# data_source: ./_data
+# collections: null
+
+# Handling Reading
+safe:         false
+include:      ["./projects"]
+exclude:      []
+keep_files:   [".git", ".svn"]
+encoding:     "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+textile_ext:  "textile"
+
+# Conversion
 markdown:         redcarpet
 redcarpet:
   extensions: [footnotes]
+highlight: pygments
 pygments:         true
 
+# all pages
+defaults:
+  -
+    scope:
+      path: "projects"
+      type: "posts"
+    values:
+      layout: "posts"
+
 # Permalinks
-permalink:        pretty
+permalink:	/blog/:title
 
 # Setup
-title:            geoffreybyers
-tagline:          
-url:              http://geoffreybyers.github.io
-paginate:         5
-baseurl:          /
+title:		Geoffrey Byers
+tagline:	'blog'
+description:	'My personal blog.'
+url:		http://www.geoffreybyers.com
+commentsystem:	disqus
+disqus:		geoffreybyers
+twitter: geoffreybyers
+
 author:
-  name:           Geoffrey Byers
-  url:            https://twitter.com/geoffreybyers
-  email:          geoffrey@geoffreybyers.com
+  name:		'Geoffrey Byers'
+  url:		https://google.com/+GeoffreyByers
+
+paginate:	5
 
 # Custom vars
-version:          1.0.0
-github:
-  repo:           https://github.com/poole/poole
+icon:		/assets/images/icon.png
+cover:		/assets/images/cover.svg
+
+social:
+  - icon:	twitter
+    url:	https://twitter.com/geoffreybyers
+    desc:	Follow me on twitter
+
+  - icon:	github
+    url:	https://github.com/geoffreybyers
+    desc:	Fork me on github
+
+  - icon:	linkedin
+    url:	https://linkedin.com/in/geoffreybyers
+    desc:	Connect with me on linkedin
+
+  - icon: envelope
+    url:  mailto:geoffrey@geoffreybyers.com
+    desc: email me
+
+  - icon:	rss
+    url:	http://www.geoffreybyers.com/atom.xml
+    desc:	Subscribe to my feed
+    
+menu:
+  - title:	Home
+    url:	/
+    
+  - title:	About
+    url:	/about
+    
+  - title:  Articles
+    url:  /articles
+    
+  - title:  Projects
+    url:  /projects
+    
+copyright:
+  author:	geoffreybyers.com
+  url:		http://www.geoffreybyers.com
+  type_title:	fork it
+  type_url:	https://github.com/geoffreybyers/geoffreybyers.github.io
+
+# Google Analytics (add the UA Code, e.g.: UA-xxxxxxxx-1)
+google_analytics: UA-50371763-1

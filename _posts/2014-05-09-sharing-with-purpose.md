@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Sharing with Purpose
+author: Geoffrey Byers
 date: 2014-05-09
 description: Giving purpose to your social media.
 excerpt: I've been on a hiatus from social media for some time.  My relationships with Twitter, Facebook, Instagram were always hit or miss.  I'd go through periods of using them for bursts and then leaving them behind.  In some cases moving on to trying new platforms.  

@@ -1,28 +1,31 @@
 ---
 layout: post
 title: Hacking into JSTOR using TOR
+author: Geoffrey Byers
 date: 2014-08-14
+quote: "Exploiting JSTOR is as easy as using TOR."
+image: /media/hacking-into-jstor-using-tor/cover.png
+excerpt: JSTOR is a digital library of academic journals, books, and primary sources.  They provide access those privy to elite access to universities as well as a free account which provides limited access.  This information is guarded and extremely price prohibitive, sometimes costing an inflated price of up to hundreds of dollars per article.
 description: Exploiting JSTOR is as easy as using TOR.
-excerpt: <img src="/public/images/blog/2014-08-14-jsTOR_title.png">
 keywords: JSTOR,open source,free,hacking
+video: false
+comments: true
 ---
 
 
-![JSTOR](/public/images/blog/2014-08-14-jsTOR_1.png "jsTOR")
-
 ##Introduction
-JSTOR is a digital library of academic journals, books, and primary sources.  They provide access those privy to elite access to universities as well as a free account which provides limited access.[^1]  This information is guarded and extremely price prohibitive, sometimes costing an inflated price of up to hundreds of dollars per article.[^2]  JSTOR provides access based on the IP address of the computer accessing the website.  If that computer is on a college campus, any login will provide access to JSTOR with full university priority.[^3]  TOR, an anonymity network, obfuscates a user's identity by connecting a user through multiple users and finally an exit node.[^4]  TOR exit nodes are operated in many countries, including the US, as well as universities.Connecting to a TOR exit node in one of these university allows for JSTOR access.
+JSTOR is a digital library of academic journals, books, and primary sources.  They provide access those privy to elite access to universities as well as a free account which provides limited access.[^1]  This information is guarded and extremely price prohibitive, sometimes costing an inflated price of up to hundreds of dollars per article.[^2]  JSTOR provides access based on the IP address of the computer accessing the website.  If that computer is on a college campus, any login will provide access to JSTOR with full university priority.[^3]  TOR, an anonymity network, obfuscates a user's identity by connecting a user through multiple users and finally an exit node.[^4]  TOR exit nodes are operated in many countries, including the US, as well as universities.  Connecting to a TOR exit node in one of these university allows for JSTOR access.
 
 ##Downloading and Installing TOR
-![TOR 1](/public/images/blog/2014-08-14-jsTOR_2.png "jsTOR")
+![TOR 1](/media/hacking-into-jstor-using-tor/jsTOR_2.png "jsTOR")
 Download and Install TOR.[^5]  Restarting your computer is a good idea at this point. 
 
 ##Generating a JSTOR account
-![TOR 2](/public/images/blog/2014-08-14-jsTOR_3.png "jsTOR")
+![TOR 2](/media/hacking-into-jstor-using-tor/jsTOR_3.png "jsTOR")
 Now that TOR is installed, go ahead and launch TOR.  Once it opens and you get the initial splash page, visit Guerrilla Mail[^6] to generate a temporary, untraceable email address.  Copy this email address to your clipboard, leave this tab open and open a new tab.  In this new tab visit JSTOR's registration page[^7] and sign up using the email from Guerrilla Mail.  JSTOR should send you a link to this email address.  Confirm your sign up via email and then close TOR.
 
 ##Picking an exit node
-![TOR IMAGE](/public/images/blog/2014-08-14-jsTOR_4.png "jsTOR")
+![TOR IMAGE](/media/hacking-into-jstor-using-tor/jsTOR_4.png "jsTOR")
 We need to edit a specific configuration file in order to tell TOR to connect through a university exit node.  All exit nodes are viewable via Tor Network Status.[^8]  Search the page for '.edu' and numerous university exit nodes should pop up.  We need to then navigate to the torrc file in order to edit it.  
 
 * On GNU/Linux - Tor folder > Data > Tor > torrc

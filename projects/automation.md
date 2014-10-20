@@ -1,8 +1,20 @@
 ---
 layout: page
-title: Automation
+title: NX | Siemens
 ---
 
 
-![Siemens Automation](/public/images/automation.jpg "Siemens Automation")
-[link](http://http://www.plm.automation.siemens.com/en_us/products/nx/) Siemes Automation product used to design, plan, and engineer maufacturing plants.
+[link](http://www.plm.automation.siemens.com/en_us/products/nx/) 
+
+Siemes Automation product used to design, plan, and engineer maufacturing plants.
+
+
+
+
+
+
+
+
+
+
+
