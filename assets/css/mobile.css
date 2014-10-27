@@ -101,3 +101,9 @@ table {
 	display: block;
 	overflow: auto;
 }
+
+.menu * {
+    position: relative;
+    top: 25%;
+    transform: translateY(-36%);
+}

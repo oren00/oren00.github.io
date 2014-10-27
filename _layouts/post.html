@@ -12,6 +12,19 @@ article: true
 		</video>
 	{% endif %}
 	{% include top.html %}
+	<!--<div id="post-info" data-stellar-ratio="0.7">
+		<h1>{{ page.title }}</h1>
+		<span class="page-author">{{ page.author }} </span>
+		<span class="page-date">{{ page.date | date_to_long_string }}</span>
+		{% if page.quote %}
+			<h2>{{ page.quote }}</h2>
+		{% endif %}
+	</div>-->
+	<div id="nav-icon" style="bottom: 30px;" data-stellar-ratio="0.7">
+		<a class="scroll" data-speed="500" href="#article"><i class="fa fa-angle-down"></i></a>
+	</div>
+</header>
+<div id="middle">
 	<div id="post-info" data-stellar-ratio="0.7">
 		<h1>{{ page.title }}</h1>
 		<!--<a class="site-title" href="{{ site.url }}"><div class="site-icon-small" style="background-image: url({{ site.icon }});"></div>{{ site.title }}</a>, on {{ page.date | date_to_long_string }}-->
@@ -21,11 +34,6 @@ article: true
 			<h2>{{ page.quote }}</h2>
 		{% endif %}
 	</div>
-	<div id="nav-icon" style="bottom: 30px;" data-stellar-ratio="0.7">
-		<a class="scroll" data-speed="500" href="#article"><i class="fa fa-angle-down"></i></a>
-	</div>
-</header>
-<div id="middle">
 	<div id="article">
 		{{ content }}
 	</div>
