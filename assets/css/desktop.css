@@ -17,7 +17,7 @@ header, footer {
 	line-height: 44px;
 }
 
-#article, #comments {
+#article, #comments, #footnotes {
 	width: 700px;
 	padding: 50px 0px;
 	left: 50%;
