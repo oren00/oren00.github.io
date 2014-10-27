@@ -3,7 +3,7 @@ layout: default
 article: true
 ---
 
-<header class="{% if page.dark %}dark{% else %}clean{% endif %}" style="background-image: url({% if page.image %}{{ page.image }}{% else %}{{ site.cover }}{% endif %}); height: 100%;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
+<header class="{% if page.dark %}dark{% else %}clean{% endif %}" style="background-image: url({% if page.image %}{{ page.image }}{% else %}{{ site.cover }}{% endif %}); height: 70%;" data-stellar-background-ratio="0.5" data-stellar-horizontal-offset="50">
 	{% if page.video %}
 		<video id="bg-video" preload="auto" autoplay="true" loop="loop" muted="muted" volume="0" data-stellar-ratio="0.5">
 		{% for format in page.video %}
@@ -12,7 +12,20 @@ article: true
 		</video>
 	{% endif %}
 	{% include top.html %}
-	<div id="post-info" data-stellar-ratio="0.7">
+	<!--<div id="post-info" data-stellar-ratio="0.7">
+		<h1>{{ page.title }}</h1>
+		<span class="page-author">{{ page.author }} </span>
+		<span class="page-date">{{ page.date | date_to_long_string }}</span>
+		{% if page.quote %}
+			<h2>{{ page.quote }}</h2>
+		{% endif %}
+	</div>-->
+	<div id="nav-icon" style="bottom: 30px;" data-stellar-ratio="0.7">
+		<a class="scroll" data-speed="500" href="#article"><i class="fa fa-angle-down"></i></a>
+	</div>
+</header>
+<div id="middle">
+	<div id="post-info">
 		<h1>{{ page.title }}</h1>
 		<span class="page-author">{{ page.author }} </span>
 		<span class="page-date">{{ page.date | date_to_long_string }}</span>
@@ -20,11 +33,6 @@ article: true
 			<h2>{{ page.quote }}</h2>
 		{% endif %}
 	</div>
-	<div id="nav-icon" style="bottom: 30px;" data-stellar-ratio="0.7">
-		<a class="scroll" data-speed="500" href="#article"><i class="fa fa-angle-down"></i></a>
-	</div>
-</header>
-<div id="middle">
 	<div id="article">
 		{{ content }}
 	</div>
