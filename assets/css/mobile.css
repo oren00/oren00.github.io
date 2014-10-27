@@ -104,6 +104,6 @@ table {
 
 .menu * {
     position: relative;
-    top: 25%;
+    top: 20%;
     transform: translateY(-36%);
 }
