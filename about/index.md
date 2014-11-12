@@ -24,6 +24,7 @@ The future defines me, not the past.  While I've worked on a plethora of really 
 * Subtle animation goodness enabled by [StellarJS](http://markdalgleish.com/projects/stellar.js/)
 * Cover photos generated with [Delaunay Triangles](http://msurguy.github.io/triangles/)
 * Hosted for free on [GitHub Pages](https://pages.github.com)
+* During jam sessions on [Hype Machine](http://hypem.com/geoffreybyers)
 
 ##The Inspiration
 A special thanks to [aaronsw](https://github.com/aaronsw), [caporez](https://github.com/camporez), [mdo](https://github.com/mdo), and [fat](https://github.com/fat) for all of the amazing work and proving me with inspiration and a rock solid jumping off point.
