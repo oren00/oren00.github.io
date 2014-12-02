@@ -14,7 +14,7 @@ Dashboard for visualizing big data surrounding social media accounts of professi
 <br>
 
 ##VitaminVape | Great Job##
-[![Dribb.ly](/assets/images/projects/vitaminvape.png "Vitamin Vape Image")](/projects/vitaminvape.html)
+[![Dribb.ly](/assets/images/projects/vitamin-vape.png "Vitamin Vape Image")](/projects/vitaminvape.html)
 ###\#strategy \#branding \#packaging \#product \#ecommerce \#marketing
 B12 vitamin infused vaporizer.
 
