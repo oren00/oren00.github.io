@@ -22,15 +22,6 @@ B12 vitamin infused vaporizer.
 ***
 <br>
 
-##Wordoko | Great Job##
-[![Dribb.ly](/assets/images/projects/dribbly.png "Wordoko Image")](/projects/wordoko)
-###\#uxdesign \#userresearch \#prototyping
-Japanese wordpuzzle for iOS and Android.
-
-<br>
-***
-<br>
-
 ##Empeopled | Great Job##
 [![Dribb.ly](/assets/images/projects/empeopled.png "Empeopled Image")](/projects/empeopled)
 ###\#strategy \#uxdesign \#userresearch \#prototyping
