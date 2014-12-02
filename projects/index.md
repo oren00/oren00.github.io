@@ -14,7 +14,7 @@ Dashboard for visualizing big data surrounding social media accounts of professi
 <br>
 
 ##VitaminVape | Great Job##
-[![Dribb.ly](/assets/images/projects/vitamin-vape.png "Vitamin Vape Image")](/projects/vitaminvape.html)
+[![Dribb.ly](/assets/images/projects/vitamin-vape.png "Vitamin Vape Image")](/projects/vitaminvape)
 ###\#strategy \#branding \#packaging \#product \#ecommerce \#marketing
 B12 vitamin infused vaporizer.
 
@@ -23,7 +23,7 @@ B12 vitamin infused vaporizer.
 <br>
 
 ##Wordoko | Great Job##
-[![Dribb.ly](/assets/images/projects/dribbly.png "Wordoko Image")](/projects/wordoko.html)
+[![Dribb.ly](/assets/images/projects/dribbly.png "Wordoko Image")](/projects/wordoko)
 ###\#uxdesign \#userresearch \#prototyping
 Japanese wordpuzzle for iOS and Android.
 
@@ -32,7 +32,7 @@ Japanese wordpuzzle for iOS and Android.
 <br>
 
 ##Empeopled | Great Job##
-[![Dribb.ly](/assets/images/projects/empeopled.png "Empeopled Image")](/projects/empeopled.html)
+[![Dribb.ly](/assets/images/projects/empeopled.png "Empeopled Image")](/projects/empeopled)
 ###\#strategy \#uxdesign \#userresearch \#prototyping
 Democratic discussion platform.
 
@@ -41,7 +41,7 @@ Democratic discussion platform.
 <br>
 
 ##Dribb.ly | Great Job##
-[![Dribb.ly](/assets/images/projects/dribbly.png "Dribb.ly Image")](/projects/dribbly.html)
+[![Dribb.ly](/assets/images/projects/dribbly.png "Dribb.ly Image")](/projects/dribbly)
 ###\#strategy \#uxdesign \#userresearch \#prototyping
 Holding conversations on twitter can get noisy.  Dribbly provides a minimal discussion platform, piggybacking on twitter for commenting.
 
@@ -50,7 +50,7 @@ Holding conversations on twitter can get noisy.  Dribbly provides a minimal disc
 <br>
 
 ##NX | Siemens##
-[![Siemens Automation](/assets/images/projects/automation.jpg "Siemens Automation Image")](/projects/automation.html)
+[![Siemens Automation](/assets/images/projects/automation.jpg "Siemens Automation Image")](/projects/automation)
 ###\#uxdesign \#userresearch
 Siemens Automation product used to design, plan, and engineer manufacturing plants for companies including Daimler AG.
 
@@ -59,7 +59,7 @@ Siemens Automation product used to design, plan, and engineer manufacturing plan
 <br>
 
 ##AXIOM Sensis XP | Siemens##
-[![Healthcare](/assets/images/projects/healthcare.jpg "Siemens Healthcare Image")](/projects/sensis.html)
+[![Healthcare](/assets/images/projects/healthcare.jpg "Siemens Healthcare Image")](/projects/sensis)
 ###\#uxdesign \#userresearch
 Siemens Healthcare product used to document and track inventory and produce reports during cardiac catheter lab procedures.
 
@@ -68,7 +68,7 @@ Siemens Healthcare product used to document and track inventory and produce repo
 <br>
 
 ##Mass Notification | Siemens##
-[![Mass Notification](/assets/images/projects/mass-notification.jpg "Siemens Mass Notification Image")](/projects/mass-notification.html)
+[![Mass Notification](/assets/images/projects/mass-notification.jpg "Siemens Mass Notification Image")](/projects/mass-notification)
 ###\#uxdesign \#userresearch
 Siemens Building Technology product for mass notification in emergency situations.
 
@@ -77,7 +77,7 @@ Siemens Building Technology product for mass notification in emergency situation
 <br>
 
 ##Harmonization | Siemens##
-[![Harmonization](/assets/images/projects/harmonization.jpg "Siemens Harmonization Image")](/projects/harmonization.html)
+[![Harmonization](/assets/images/projects/harmonization.jpg "Siemens Harmonization Image")](/projects/harmonization)
 ###\#uxdesign \#userresearch
 Siemens Building Technology product line for room, building and multi-site climate control.
 
@@ -86,6 +86,6 @@ Siemens Building Technology product line for room, building and multi-site clima
 <br>
 
 ##Space Shuttle | NASA##
-[![NASA](/assets/images/projects/space-shuttle.jpg "NASA Image")](/projects/nasa.html)
+[![NASA](/assets/images/projects/space-shuttle.jpg "NASA Image")](/projects/nasa)
 ###\#engineering
 NASA external fuel tank for the Space Shuttle program.  (The big orange thing).
