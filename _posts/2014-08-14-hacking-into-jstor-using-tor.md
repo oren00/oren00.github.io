@@ -12,7 +12,7 @@ video: false
 comments: true
 ---
 
-
+***
 ##Introduction
 JSTOR is a digital library of academic journals, books, and primary sources.  They provide access those privy to elite access to universities as well as a free account which provides limited access.[^1]  This information is guarded and extremely price prohibitive, sometimes costing an inflated price of up to hundreds of dollars per article.[^2]  JSTOR provides access based on the IP address of the computer accessing the website.  If that computer is on a college campus, any login will provide access to JSTOR with full university priority.[^3]  TOR, an anonymity network, obfuscates a user's identity by connecting a user through multiple users and finally an exit node.[^4]  TOR exit nodes are operated in many countries, including the US, as well as universities.  Connecting to a TOR exit node in one of these university allows for JSTOR access.
 
