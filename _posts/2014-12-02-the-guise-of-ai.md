@@ -25,7 +25,7 @@ We rarely start tasks at exactly the same time over and over again.  Slight fluc
 Humans can only work so long.  Some studies suggest there is a steep drop off after 40 hours a week.  Software can run nonstop around the clock, working without taking a rest.  This instantly reads as "not a human".  Scheduling during 'normal' hours with cron gives software the appearance of not working endlessly.
 
 ###Sleep between actions such as likes, comments, follows etc.
-Certain interactions such as following people on Instagram or liking a photo take some incremental time to accomplish.  This is true despite any aesthetically pickiness, as a person can only like so fast.  Using Instagram's API, software can like at a much faster rate than a human.  Instagram has [API limits]() because of this.  Even if you are under the technical limits for something such as Instagram automation, it may still be less than ideal to operate in such a fashion.
+Certain interactions such as following people on Instagram or liking a photo take some incremental time to accomplish.  This is true despite any aesthetically pickiness, as a person can only like so fast.  Using Instagram's API, software can like at a much faster rate than a human.  Instagram has [API limits](http://instagram.com/developer/limits/#) because of this.  Even if you are under the technical limits for something such as Instagram automation, it may still be less than ideal to operate in such a fashion.
 
 ##Randomness
 Humans have a natural order.  Part of that order is not repeating actions in the same exact order.  Another part of that order is not repeating the same exact number of actions.
@@ -39,5 +39,5 @@ Setting min and max ranges for number of actions.  One example would be number o
 ###Randomize all sleep
 Sleep should have min and max ranges as well, allowing the software to have sleep patterns with some fluctuation.
 
-###Go easy on the API limits, keep the range of actions 'normal' and random
-Just because there is a technical limit, doesn't mean you should brush against it every time.  
+###Know your limits
+Go easy on the API limits, keep the range of actions 'normal' and random.  Just because there is a technical limit, doesn't mean you should brush against it every time.  
