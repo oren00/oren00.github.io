@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A sampling of my more interesting collaborations
+title:
 ---
 
 
