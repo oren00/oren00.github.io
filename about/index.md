@@ -1,10 +1,9 @@
 ---
 layout: page
-title: Colophon
+title:
 ---
 
-![me](/assets/images/about/me_large.jpg "me")
-
+#Colophon
 I'm a voracious researcher, designer, maker, hacker, hustler, advisor.  I'm a founder and designer at [Great Job](http://greatjob.is) and the designer in residence at [Fort Work](http://www.fortwork.com).  I'm rather nomadic and split my time between a few of my favorite cities.
 
 ##My Flow
