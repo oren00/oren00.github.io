@@ -27,7 +27,7 @@ Humans can only work for so long.  Research [suggests](http://www.inc.com/jessic
 ###Sleep between actions such as likes, comments, follows etc.
 Certain interactions such as tweeting or liking a photo on Instagram take some incremental time to accomplish.  This is true despite any aesthetically pickiness, as a person can only like so fast.  Using Instagram's API, software can like at a much faster rate than a human.  Even if you are under the technical limits for something such as Instagram automation, it may still be less than ideal to operate in such a fashion.
 
-##Randomness
+##Randomization
 Humans have a natural order to accomplishing tasks.  Part of that order is not repeating actions in the same exact order.  Another part of that order is not repeating the task in the same exact number.  
 
 ###Randomize order
