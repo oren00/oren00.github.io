@@ -4,7 +4,7 @@ title:
 ---
 
 
-##MVP Index | Great Job##
+##MVP Index | Maker Hive##
 [![Dribb.ly](/assets/images/projects/mvpindex.png "MVP Index Image")](/projects/mvpindex)
 ###\#userresearch \#uxdesign \#dataviz \#prototyping
 Dashboard for visualizing big data surrounding social media accounts of professional athletes.
