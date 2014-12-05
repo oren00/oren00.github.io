@@ -4,7 +4,7 @@ title:
 ---
 
 #Colophon
-I'm a voracious researcher, designer, maker, hacker, hustler, advisor.  I'm a founder and designer at [Great Job](http://greatjob.is) and the designer in residence at [Fort Work](http://www.fortwork.com).  I'm rather nomadic and split my time between a few of my favorite cities.
+I'm a voracious researcher, designer, maker, hacker, hustler, advisor.  I collaborate with a lot of awesome folks.  I'm a founder and designer at [Great Job](http://greatjob.is), a designer at [Maker Hive](http://makerhive.co) and the designer in residence at [Fort Work](http://www.fortwork.com).  I'm rather nomadic and split my time between a few of my favorite cities.
 
 ##My Flow
 If you've stumbled here looking for pretty pictures relating to what I've made in the past, find another designer.  Aesthetically driven designers tend to congregate [here](http://www.dribbble.com), [here](http://www.behance.com), and [here](http://www.cargocollective.com).  That is not UX design.  I solve complex and sophisticated problems which result in elegant solutions.  I am obsessed with creating how things work.  Aesthetics is just the tip of the iceberg.
