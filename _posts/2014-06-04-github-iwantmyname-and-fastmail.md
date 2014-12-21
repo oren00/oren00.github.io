@@ -4,7 +4,7 @@ title: Github Pages, iwantmyname, and Fastmail
 author: Geoffrey Byers
 date: 2014-06-04
 quote: "When I realized I wanted to move away from a wordpress site and databases, I knew I could also ditch traditional hosting."
-image: https://farm8.staticflickr.com/7077/7305799276_4bffb01c3d_h.jpg
+image: https://farm8.staticflickr.com/7077/7305799276_767558f83b_b.jpg
 attribute_author: Yuko Honda
 attribute_url: https://flic.kr/p/c8A8Au
 description: Hosting my site on github pages and my email through fastmail via iwantmyname.com
