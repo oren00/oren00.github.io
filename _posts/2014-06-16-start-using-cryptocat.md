@@ -4,7 +4,7 @@ title: Start Using Cryptocat
 author: Geoffrey Byers
 date: 2014-06-16
 quote: "...the right to privacy is one of the core principles of the the internet."
-image: https://farm8.staticflickr.com/7437/9598492078_754195c6ce_h.jpg
+image: https://farm8.staticflickr.com/7437/9598492078_bc46a00691_b.jpg
 attribute_author: Cybergate9
 attribute_url: https://flic.kr/p/fCbMhJ
 excerpt: It does not matter if you have something secret to share, the right to privacy is one of the core principles of the US and the internet.
