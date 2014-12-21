@@ -12,6 +12,10 @@ article: true
 		</video>
 	{% endif %}
 	{% include top.html %}
+	<div id="post-attribution" data-stellar-ratio"0.7">
+		<p>Photo by <a href="{{ page.attribute_url }}" target="_blank">{{ page.attribute_author }}</a></p>
+	</div>
+
 	<!--<div id="post-info" data-stellar-ratio="0.7">
 		<h1>{{ page.title }}</h1>
 		<span class="page-author">{{ page.author }} </span>
@@ -29,7 +33,7 @@ article: true
 		<h1>{{ page.title }}</h1>
 		<span class="page-author">{{ page.author }} </span>
 		<span class="page-date">{{ page.date | date_to_long_string }}</span>
-		<h4>Photo by <a href="{{ page.attribute_url }}" target="_blank">{{ page.attribute_author }}</a></h4>
+		<!--<h4>Photo by <a href="{{ page.attribute_url }}" target="_blank">{{ page.attribute_author }}</a></h4>-->
 		{% if page.quote %}
 			<h2>{{ page.quote }}</h2>
 		{% endif %}

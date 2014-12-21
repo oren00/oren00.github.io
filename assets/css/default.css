@@ -94,6 +94,13 @@ img {
 	max-width: 100%;
 }
 
+#post-attribution {
+	font-size: 14px;
+	position: absolute;
+	z-index: 2;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
 #post-info {
 	font-size: 14px;
 	position: absolute;
