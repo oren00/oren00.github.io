@@ -4,9 +4,9 @@ title: The Guise of AI
 author: Geoffrey Byers
 date: 2014-12-02
 quote: "or how to make automated human computer interactions seem less mechanical and more human"
-image: https://farm5.staticflickr.com/4084/4847072561_9034c1db6a_b.jpg
-attribute_author: Kate McCully
-attribute_url: https://flic.kr/p/8ojvNz
+image: https://farm3.staticflickr.com/2164/2627550713_73a20ed697_o.jpg
+attribute_author: Andy Wilson
+attribute_url: https://www.flickr.com/photos/by_andy/2627550713
 excerpt: When interactions between humans and software in the digital space seems more closely likened to interactions with other humans in that same digital space, we enter the perceived state of AI.
 keywords: automation,robot,bot,ai
 video: false
