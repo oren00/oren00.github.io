@@ -1,6 +1,6 @@
 ---
 layout: page
-title:
+title: Articles
 ---
 
 <h1 class="post-title">Articles</h1>

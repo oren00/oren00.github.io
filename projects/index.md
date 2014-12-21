@@ -1,9 +1,9 @@
 ---
 layout: page
-title:
+title: Projects
 ---
 
-
+#Projects
 ##MVP Index | Maker Hive##
 [![Dribb.ly](/assets/images/projects/mvpindex.png "MVP Index Image")](http://www.mvpindex.com)
 ###\#userresearch \#uxdesign \#dataviz \#prototyping
