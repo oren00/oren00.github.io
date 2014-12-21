@@ -96,9 +96,13 @@ img {
 
 #post-attribution {
 	font-size: 14px;
-	position: absolute;
+	color: #ffffff;
+	position: relative;
 	z-index: 2;
 	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	bottom: -92%;
+	float: right;
+	margin-right: 10px;
 }
 
 #post-info {
