@@ -104,6 +104,9 @@ img {
 	float: right;
 	margin-right: 10px;
 }
+#post-attribution p {
+	color: #ffffff;
+}
 
 #post-info {
 	font-size: 14px;
