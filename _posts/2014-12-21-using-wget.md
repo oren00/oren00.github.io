@@ -1,66 +1,36 @@
 ---
 layout: post
-title: Using WGET to Download Streaming Videos
+title: Using Wget to Download Streaming Videos
 author: Geoffrey Byers
 date: 2014-12-21
-quote: ""
+quote: "Videos streaming behind a flash player can be a shitshow to grab for offline viewing."
 image: https://farm3.staticflickr.com/2642/3696386615_19c3c56b23_b.jpg
 attribute_author: Stian Eikeland
 attribute_url: https://flic.kr/p/6CCWXH
-excerpt: 
+excerpt: Videos streaming behind a flash player can be a shitshow to grab for offline viewing.
 keywords: wget,downloading,streaming,ripping
 video: false
 comments: true
 ---
 
 ***
-##
+##Finding the files
+Videos streaming behind a flash player can be a shitshow to grab for offline viewing.  I recently wanted to watch a PBS documentary about North Korea, but wanted to download the file for later viewing.  In this example, the files exist beneath a flash video player making things a bit cumbersome.  There are a few ways to find the source stream, using firebug being one of the easier ways.  For this example head over to the PBS documentary ['Secret State of North Korea'](http://video.pbs.org/video/2365155890/).  [Firebug](https://addons.mozilla.org/en-US/firefox/addon/firebug/) is an addon for firefox, giving you access to some developer tools.  A few options exist for Chrome, but I'm not going to dig into those.  After installing firebug, start playing the video, right click and choose 'inspect element with firebug'.  Go to the 'Net' tab  and below that make sure the 'All' tab is selected.  Sort files by size and look for something ~1.3MB in size.  Hovering over this item reveals a link which resembles this:
 
+http://ga.video.cdn.pbs.org/videos/frontline/773e4c49-c6a6-47a0-b075-7f298847a106/56135/hd-mezzanine-16x9/00003206-16x9-hls-800k-00001.ts
 
+Copy this link using 'Copy Location'.
 
+##Scraping with Wget
+Wget comes installed with most linux and osx distributions.  Opening terminal, we can issue commands with Wget using the url from firebug.  Getting multiple files in Wget is pretty straightforward.  I had some difficulties getting files 1 to 500 in one go, but using the syntax below works to download batches of files at once.
 
+	wget -r http://ga.video.cdn.pbs.org/videos/frontline/773e4c49-c6a6-47a0-b075-7f298847a106/56135/hd-mezzanine-16x9/00003206-16x9-hls-800k-0000{1..9}.ts
 
+	wget -r http://ga.video.cdn.pbs.org/videos/frontline/773e4c49-c6a6-47a0-b075-7f298847a106/56135/hd-mezzanine-16x9/00003206-16x9-hls-800k-000{10..99}.ts
 
+	wget -r http://ga.video.cdn.pbs.org/videos/frontline/773e4c49-c6a6-47a0-b075-7f298847a106/56135/hd-mezzanine-16x9/00003206-16x9-hls-800k-00{100..500}.ts
 
+Using this script downloads the folder and contents into the current directory.  In this case the structure is ga.video.cdn.pbs.org/videos/frontline/773e4c49-c6a6-47a0-b075-7f298847a106/56135/hd-mezzanine-16x9/ followed by the 323 .ts files.  
 
-
-
-
-
-
-
-
-
-
-
-
-
-##Overview
-Artificial intelligence is a largely a grey area.  In many cases, software can seem human and to think for itself when in reality it is just less robotic.  This is blurred when the digital lens enters into the equation.  When interactions between humans and software in the digital space seems more closely likened to interactions with other humans in that same digital space, we enter the perceived state of AI.  Two main areas I have begun including in my projects include sleeping ie. paused states and randomization of variables.  These rather simple details give the perception of anthropomorphism.  This could be important for a number of reasons ranging from customers interacting with your software to deception for running bots on social media platforms.
-
-##Sleep
-Despite our best efforts we cannot achieve perfection.  People have a natural cadence which is not mechanical or bot-like.  If actions repeatedly take place at exactly the same time things tend to look artificial.  This can be ideal in certain situations such as an alarm clock, however less than ideal when creating experiences and interactions that seem human.
-
-###Sleep on start
-We rarely start tasks at exactly the same time over and over again.  Slight fluctuations such as the delay in time when actions begin, such as tweeting, show enough of a nuance and inconsistency as to depict human like behavior.
-
-###Hold 'normal' hours
-Humans can only work for so long.  Research [suggests](http://www.inc.com/jessica-stillman/why-working-more-than-40-hours-a-week-is-useless.html) there is a steep drop off after 40 hours a week.  Software can run nonstop around the clock, working without taking a break.  Doing so instantly reads as "not a human".  Scheduling actions during 'normal' hours with cron gives software the appearance of not working endlessly and perpetuating the idea that a human could indeed be behind the scenes.
-
-###Sleep between actions such as likes, comments, follows etc.
-Certain interactions such as tweeting or liking a photo on Instagram take some incremental time to accomplish.  This is true despite any aesthetically pickiness, as a person can only like so fast.  Using Instagram's API, software can like at a much faster rate than a human.  Even if you are under the technical limits for something such as Instagram automation, it may still be less than ideal to operate in such a fashion.
-
-##Randomization
-Humans have a natural order to accomplishing tasks.  Part of that order is not repeating actions in the same exact order.  Another part of that order is not repeating the task in the same exact number.  
-
-###Randomize order
-Hashtags allow us to quickly filter content which most likely applies to a topic which is interesting.  Keeping track of hashtags is not out of the ordinary.  Neither is cycling through a handful of relevant hashtags on a recurring schedule.  However, software interacting via a set of hashtags in the same order repeatedly is an excellent way to pick out software from a human.
-
-###Randomize frequency
-Follows, likes, posts, retweets all happen on Twitter at seemingly random counts.  The counts for these naturally changes.  A random number of actions within a set min and max range for a given time more closely replicates human behavior.
-
-###Randomize all sleep
-Pauses between tweets, favorites, comments and likes should be randomized.  All sleep can benefit from min and max ranges, allowing the software to have sleep patterns with some fluctuation.
-
-###Know your limits
-In order to stop abuse and mostly to cut down in spam, most social networks have API limits.  [Instagram](http://instagram.com/developer/limits/#), [Twitter](https://dev.twitter.com/rest/public/rate-limiting), [Facebook]() all have public API limits.  Go easy on these API limits, keep the range of actions 'normal' and random.  The Instagram limit for number of likes in an hour is 100, however 60 likes in an hour is 40% less than the limit and is a much more reasonable cadence.  Just because there is a technical limit, doesn't mean you should brush against it.  Doing so may get your account shut down.
+##Playing with VLC
+In addition to the .ts files, wget grabbed a file named 00003206-16x9-hls-800k.m3u8 which plays in [VLC](http://www.videolan.org/vlc/index.html).  Open this with VLC and you'll get seamless playback.
