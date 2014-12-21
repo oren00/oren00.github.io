@@ -29,6 +29,7 @@ article: true
 		<h1>{{ page.title }}</h1>
 		<span class="page-author">{{ page.author }} </span>
 		<span class="page-date">{{ page.date | date_to_long_string }}</span>
+		<h4>{{page.attribute}}</h4>
 		{% if page.quote %}
 			<h2>{{ page.quote }}</h2>
 		{% endif %}
