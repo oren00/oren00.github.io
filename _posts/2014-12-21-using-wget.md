@@ -22,7 +22,7 @@ http://ga.video.cdn.pbs.org/videos/frontline/773e4c49-c6a6-47a0-b075-7f298847a10
 Copy this link using 'Copy Location'.
 
 ##Scraping with Wget
-Wget comes installed with most linux and osx distributions.  Opening terminal, we can issue commands with Wget using the url from firebug.  Getting multiple files in Wget is pretty straightforward.  I had some difficulties getting files 1 to 500 in one go, but using the syntax below works to download batches of files at once.
+[Wget](https://www.gnu.org/software/wget/) comes installed with most linux and osx distributions.  Opening terminal, we can issue commands with Wget using the url from firebug.  Getting multiple files in Wget is pretty straightforward.  I had some difficulties getting files 1 to 500 in one go, but using the syntax below works to download batches of files at once.
 
 	wget -r http://ga.video.cdn.pbs.org/videos/frontline/773e4c49-c6a6-47a0-b075-7f298847a106/56135/hd-mezzanine-16x9/00003206-16x9-hls-800k-0000{1..9}.ts
 
