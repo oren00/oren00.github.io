@@ -5,7 +5,7 @@ title:
 
 
 ##MVP Index | Maker Hive##
-[![Dribb.ly](/assets/images/projects/mvpindex.png "MVP Index Image")](/projects/mvpindex)
+[![Dribb.ly](/assets/images/projects/mvpindex.png "MVP Index Image")](http://www.mvpindex.com)
 ###\#userresearch \#uxdesign \#dataviz \#prototyping
 Dashboard for visualizing big data surrounding social media accounts of professional athletes.
 
@@ -14,7 +14,7 @@ Dashboard for visualizing big data surrounding social media accounts of professi
 <br>
 
 ##VitaminVape | Great Job##
-[![Dribb.ly](/assets/images/projects/vitamin-vape.png "Vitamin Vape Image")](/projects/vitaminvape)
+[![Dribb.ly](/assets/images/projects/vitamin-vape.png "Vitamin Vape Image")](http://vitaminvape.co)
 ###\#strategy \#branding \#packaging \#product \#ecommerce \#marketing
 B12 vitamin infused vaporizer.
 
@@ -23,7 +23,7 @@ B12 vitamin infused vaporizer.
 <br>
 
 ##Empeopled | Great Job##
-[![Dribb.ly](/assets/images/projects/empeopled.png "Empeopled Image")](/projects/empeopled)
+[![Dribb.ly](/assets/images/projects/empeopled.png "Empeopled Image")](http://www.empeopled.com)
 ###\#strategy \#uxdesign \#userresearch \#prototyping
 Democratic discussion platform.
 
@@ -32,7 +32,7 @@ Democratic discussion platform.
 <br>
 
 ##Dribb.ly | Great Job##
-[![Dribb.ly](/assets/images/projects/dribbly.png "Dribb.ly Image")](/projects/dribbly)
+[![Dribb.ly](/assets/images/projects/dribbly.png "Dribb.ly Image")](http://www.dribb.ly)
 ###\#strategy \#uxdesign \#userresearch \#prototyping
 Holding conversations on twitter can get noisy.  Dribbly provides a minimal discussion platform, piggybacking on twitter for commenting.
 
@@ -41,7 +41,7 @@ Holding conversations on twitter can get noisy.  Dribbly provides a minimal disc
 <br>
 
 ##NX | Siemens##
-[![Siemens Automation](/assets/images/projects/automation.jpg "Siemens Automation Image")](/projects/automation)
+[![Siemens Automation](/assets/images/projects/automation.jpg "Siemens Automation Image")](http://www.plm.automation.siemens.com/en_us/products/nx/)
 ###\#uxdesign \#userresearch
 Siemens Automation product used to design, plan, and engineer manufacturing plants for companies including Daimler AG.
 
@@ -50,7 +50,7 @@ Siemens Automation product used to design, plan, and engineer manufacturing plan
 <br>
 
 ##AXIOM Sensis XP | Siemens##
-[![Healthcare](/assets/images/projects/healthcare.jpg "Siemens Healthcare Image")](/projects/sensis)
+[![Healthcare](/assets/images/projects/healthcare.jpg "Siemens Healthcare Image")](http://www.healthcare.siemens.com/angio/workplaces/sensis/)
 ###\#uxdesign \#userresearch
 Siemens Healthcare product used to document and track inventory and produce reports during cardiac catheter lab procedures.
 
@@ -68,7 +68,7 @@ Siemens Building Technology product for mass notification in emergency situation
 <br>
 
 ##Harmonization | Siemens##
-[![Harmonization](/assets/images/projects/harmonization.jpg "Siemens Harmonization Image")](/projects/harmonization)
+[![Harmonization](/assets/images/projects/harmonization.jpg "Siemens Harmonization Image")](http://w3.usa.siemens.com/buildingtechnologies/us/en/mass-notification/pages/mass-notification.aspx)
 ###\#uxdesign \#userresearch
 Siemens Building Technology product line for room, building and multi-site climate control.
 
@@ -77,6 +77,6 @@ Siemens Building Technology product line for room, building and multi-site clima
 <br>
 
 ##Space Shuttle | NASA##
-[![NASA](/assets/images/projects/space-shuttle.jpg "NASA Image")](/projects/nasa)
+[![NASA](/assets/images/projects/space-shuttle.jpg "NASA Image")](http://mafspace.msfc.nasa.gov/)
 ###\#engineering
 NASA external fuel tank for the Space Shuttle program.  (The big orange thing).
