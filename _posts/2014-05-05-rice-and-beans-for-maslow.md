@@ -4,7 +4,9 @@ title: Rice and Beans for Maslow
 author: Geoffrey Byers
 date: 2014-05-05
 quote: Feed your inner hunger.
-image: /media/rice-and-beans-for-maslow/cover.jpg
+image: https://farm6.staticflickr.com/5093/5535637744_74e739d0b7_b.jpg
+attribute_author: cookbookman17
+attribute_url: https://flic.kr/p/9raAf5
 description: What you need to achieve is a bowl of beans and rice.  Feed your inner hunger.
 excerpt: Raised in New Orleans, I grew up in a worldclass culture.  Between music and food, I spent most of my former years developing a complex palete around a culture spicy in a multitude of ways.  I also picked up exploring, resulting in my value of roadmaps over directions.
 keywords: maslow,need,food,community

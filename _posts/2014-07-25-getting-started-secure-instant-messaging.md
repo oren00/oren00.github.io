@@ -4,7 +4,9 @@ title: Getting Started with Secure Instant Messaging
 author: Geoffrey Byers
 date: 2014-07-25
 quote: 
-image: /media/getting-started-secure-instant-messaging/cover.jpg
+image: https://farm6.staticflickr.com/5534/11221050956_24467829a6_b.jpg
+attribute_author: reynermedia
+attribute_url: https://flic.kr/p/i6yPvN
 description: You should start using secure messaging now.  Here's how.
 excerpt: If you want to have private conversations, you are accountable for making sure those conversations are secure.
 keywords: security,privacy,message,messaging,TOR,OTR,encryption

@@ -4,7 +4,9 @@ title: Hacking into JSTOR using TOR
 author: Geoffrey Byers
 date: 2014-08-14
 quote: "Exploiting JSTOR is as easy as using TOR."
-image: /media/hacking-into-jstor-using-tor/cover.png
+image: https://farm5.staticflickr.com/4104/5088254388_3a32e61ab8_b.jpg
+attribute_author: azrasta
+attribute_url: https://flic.kr/p/8KCCKW
 excerpt: JSTOR is a digital library of academic journals, books, and primary sources.  They provide access those privy to elite access to universities as well as a free account which provides limited access.  This information is guarded and extremely price prohibitive, sometimes costing an inflated price of up to hundreds of dollars per article.
 description: Exploiting JSTOR is as easy as using TOR.
 keywords: JSTOR,open source,free,hacking
