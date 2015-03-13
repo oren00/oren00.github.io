@@ -39,7 +39,7 @@ title:		Geoffrey Byers
 tagline:	'blog'
 description:	'My personal blog.'
 url:		http://www.geoffreybyers.com
-commentsystem:	disqus
+commentsystem:	#disqus
 disqus:		geoffreybyers
 twitter: geoffreybyers
 
