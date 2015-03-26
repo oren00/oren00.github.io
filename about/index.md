@@ -25,7 +25,7 @@ Research (Discover), Design (Create), Code (Build), repeat.
 * During jam sessions on [Hype Machine](http://hypem.com/geoffreybyers)
 
 ##The Inspiration
-A special thanks to [aaronsw](https://github.com/aaronsw), [caporez](https://github.com/camporez), [mdo](https://github.com/mdo), and [fat](https://github.com/fat) for all of the amazing work and proving me with inspiration and a rock solid jumping off point.
+A special thanks to [aaronsw](https://github.com/aaronsw), [caporez](https://github.com/camporez), [mdo](https://github.com/mdo), and [fat](https://github.com/fat) for all of the amazing work and providing me with inspiration and a rock solid jumping off point.
 
 Cheers,
 Geoffrey
