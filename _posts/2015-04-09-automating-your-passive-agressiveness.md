@@ -13,7 +13,8 @@ video: false
 comments: true
 ---
 
-
+***
+##Overview
 Do you need to get in touch with someone, or automate your messages to them?  Fear not.  You can automate everything, sending SMS messages as frequently as needed.  Most, if not all, cellular providers allow emails to be sent to mobile numbers.  This is accomplished by emailing the number with an extension such as @txt.att.net after the 10 digit number.  These messages are sent via numbers which change after each message sent, meaning mobile users can not block one number and stop further incoming messages.  If you need to send messages once a day or less, [IFTTT](https://ifttt.com/) is the most simple solution.  If you need to send more than one message a day, keep reading.
 
 ##The Psychological Impact of repetitive mass communication
