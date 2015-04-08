@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Automating Your Passive Agressiveness PT.1
+title: Automating Your Passive Aggressiveness PT.1
 author: Geoffrey Byers
 date: 2015-04-09
 quote: "With the different platforms of communication and pure volume of communication touch-points today, messages can be ignored and lost in the ether that is the digital age."
