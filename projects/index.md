@@ -31,15 +31,6 @@ Democratic discussion platform.
 ***
 <br>
 
-##Dribb.ly | Great Job##
-[![Dribb.ly](/assets/images/projects/dribbly.png "Dribb.ly Image")](http://www.dribb.ly)
-###\#strategy \#uxdesign \#userresearch \#prototyping
-Holding conversations on twitter can get noisy.  Dribbly provides a minimal discussion platform, piggybacking on twitter for commenting.
-
-<br>
-***
-<br>
-
 ##NX | Siemens##
 [![Siemens Automation](/assets/images/projects/automation.jpg "Siemens Automation Image")](http://www.plm.automation.siemens.com/en_us/products/nx/)
 ###\#uxdesign \#userresearch
